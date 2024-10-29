@@ -4,7 +4,7 @@
 
 Dieses Repository basiert auf dem Kurs [Grundlagen Der Automatischen Spracherzeugung](https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?number=41121&version=1&sprache=1). Das Ziel ist es, eine Transkription aus einem rohen Audiosignal zu erstellen. 
 
-| <img  src="./setup/objective.png"> | 
+<img  src="./setup/objective.png"> 
 
 Zudem wird jede Woche die zu bearbeiteten Übungsaufgaben auf diesem Repository hochgeladen. Der Zeitplan für die Aufgaben wird in der folgenden Tabelle festgehalten:
 
