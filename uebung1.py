@@ -32,6 +32,8 @@ def compute_features():
         axs[i].set_ylabel("Amplitude")
         axs[i].set_title(f"Frame {i+1}")
 
+        axs[i].set_xlim([0, 0.2])
+
     plt.tight_layout()
     plt.show()
 
