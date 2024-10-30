@@ -24,11 +24,11 @@ def compute_features():
 
     # Subplots erstellen
     fig, axs = plt.subplots(4, 1, figsize=(10, 8))
-    fig.suptitle("Erste vier Fenster des Audiosignals")
+    fig.suptitle("Erste vier Fenster des Audiosignals mit Hamming-Fenster")
 
     for i in range(4):
         axs[i].plot(time_axis, num_plots[i])
-        axs[i].set_xlabel("Zeit (Sekunden)")
+        axs[i].set_xlabel("Zeit in Sekunden")
         axs[i].set_ylabel("Amplitude")
         axs[i].set_title(f"Frame {i+1}")
 

@@ -27,8 +27,7 @@ def make_frames(audio_data, sampling_rate, window_size, hop_size):
     # Leeres 2-dim Array
     # Anzahl der Zeilen   : Gesamt Anzahl der Fenster
     # Anzahl der Spalten  : Anzahl der Samples pro Fenster
-    frames = np.zeros(num_frames, window_size_samples_power)
-    frames_float = frames.astype(float)
+    frames = np.zeros((num_frames, window_size_samples_power), dtype=float)
 
     # Fensterung
     for i in range(num_frames):
@@ -45,9 +44,9 @@ def make_frames(audio_data, sampling_rate, window_size, hop_size):
         # Falls das Frame nicht vollständig ist, wird es auf die Länge window_size_samples_power gebracht
         # (0, window_size_samples - len(frame)) : Am ende werden "window_size_samples - len(frame)"" Nullen zu dem Fenster hinzugefügt
         if len(frame) < window_size_samples_power:
-            frame = np.pad(frame, (0, window_size_samples - len(frame)))
+            frame = np.pad(frame, (0, window_size_samples_power - len(frame)))
 
         # Hamming-Fenster anwenden
-        frames_float[i, :] = frame * hamm_window
+        frames[i, :] = frame * hamm_window
 
-    return frames_float
+    return frames
