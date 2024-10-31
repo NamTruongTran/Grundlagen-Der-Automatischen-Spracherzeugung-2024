@@ -9,9 +9,6 @@ def make_frames(audio_data, sampling_rate, window_size, hop_size):
     hop_size_samples = sec_to_samples(hop_size, sampling_rate)
 
     # Fenster in Abtastpunkte umrechnen
-    # window_size: Zeitintervall in Sekunden in einer Fensterlänge
-    window_size_samples = sec_to_samples(window_size, sampling_rate)
-
     # Aufrunden auf nächsthöhere Zweierpotenz -> Besser für die Berechnung der Fourier-Transformation (Bei zweierpotenzen ist die FT schneller)
     window_size_samples_power = dft_window_size(window_size, sampling_rate)
 
@@ -41,12 +38,15 @@ def make_frames(audio_data, sampling_rate, window_size, hop_size):
         frame = audio_data[start:end]
 
         # Zero-Padding
-        # Falls das Frame nicht vollständig ist, wird es auf die Länge window_size_samples_power gebracht
-        # (0, window_size_samples - len(frame)) : Am ende werden "window_size_samples - len(frame)"" Nullen zu dem Fenster hinzugefügt
+        # Falls das Frame nicht vollständig ist, wird es auf die Länge window_size_samples_power gebracht indem pad dazu addiert
+        # (0, window_size_samples - len(frame)) : Am ende werden "window_size_samples - len(frame)" Nullen zu dem Fenster hinzugefügt
         if len(frame) < window_size_samples_power:
             frame = np.pad(frame, (0, window_size_samples_power - len(frame)))
 
-        # Hamming-Fenster anwenden
+        ## Hamming-Fenster auf i-te Fenster anwenden
         frames[i, :] = frame * hamm_window
+
+        ## Ohne Hamming-Fenster
+        # frames[i, :] = frame
 
     return frames

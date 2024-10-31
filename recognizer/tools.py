@@ -41,10 +41,9 @@ def get_num_frames(signal_length_samples, window_size_samples, hop_size_samples)
     # window_size_samples   : Anzahl der Abtastpunkte pro Fenster
     # hop_size_samples      : Verschiebung von einem Fenster zum nächsten in Abtastpunkte
     #      math.ceil        : Aufrunden falls das letzte Frame nicht mehr passt
-    # Formel gibt nur Verschiebungen wieder nach dem erstem Fenster ohne das erste Fenster zu berücksichtigen -> +1 dazuschreiben für das erste Fenster
-    num_frames = (signal_length_samples - window_size_samples) / hop_size_samples
-    num_frames_firstFrame = num_frames + 1
-    num_frames_round = math.ceil(num_frames_firstFrame)
-    num_frames_int = int(num_frames_round)
+    # Formel gibt an wie oft gehopt wird bzw. wie viele Fenster im GesamtSignal
+    overlap = window_size_samples - hop_size_samples
+    num_frames = (signal_length_samples - overlap) / hop_size_samples
+    num_frames_round = math.ceil(num_frames)
 
-    return num_frames_int
+    return num_frames_round
