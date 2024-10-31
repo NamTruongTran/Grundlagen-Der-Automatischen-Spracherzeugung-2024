@@ -25,6 +25,6 @@ Zudem wird jede Woche die zu bearbeiteten Übungsaufgaben auf diesem Repository 
 
 ## Hybride Spracherkennung
 
-Der Prozess der Hybriden Spracherkennung besteht aus drei Hauptschritten, die nacheinander ausgeführt werden. Das Ziel ist es aus einem rohen Audiosignal eine Transkription zu erzeugen. 
+Der Prozess der Hybriden Spracherkennung besteht aus drei Hauptschritten (Feature Extraction, Deep Neural Network und Search), die nacheinander ausgeführt werden. Das Ziel ist es aus einem rohen Audiosignal eine Transkription zu erzeugen. 
 
 
