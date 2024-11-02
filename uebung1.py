@@ -30,7 +30,7 @@ def compute_features():
     time_axis = np.linspace(0, zeit_sample_pro_frame, window_size_samples)
 
     # Subplots erstellen
-    fig, axs = plt.subplots(4, 1, figsize=(10, 8))
+    fig, axs = plt.subplots(4, 1, figsize=(10, 10))
 
     ## Hamming-Fenster
     fig.suptitle("Erste vier Fenster des Audiosignals mit Hamming-Fenster")

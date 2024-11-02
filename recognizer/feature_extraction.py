@@ -1,20 +1,23 @@
 import numpy as np
-from .tools import sec_to_samples, next_pow2, dft_window_size, get_num_frames
+from scipy.io import wavfile
+import recognizer.tools as tools
+# from .tools import sec_to_samples, next_pow2, dft_window_size, get_num_frames
 
 
+######### Aufgabe 1 (Fensterung) #########
 def make_frames(audio_data, sampling_rate, window_size, hop_size):
     # TODO implement this method
 
     # Verschiebung in Abtastpunkte umrechnen
-    hop_size_samples = sec_to_samples(hop_size, sampling_rate)
+    hop_size_samples = tools.sec_to_samples(hop_size, sampling_rate)
 
     # Fenster in Abtastpunkte umrechnen
     # Aufrunden auf nächsthöhere Zweierpotenz -> Besser für die Berechnung der Fourier-Transformation (Bei zweierpotenzen ist die FT schneller)
-    window_size_samples_power = dft_window_size(window_size, sampling_rate)
+    window_size_samples_power = tools.dft_window_size(window_size, sampling_rate)
 
     # Anzahl der Fenster berechnen
     audio_data_len = len(audio_data)
-    num_frames = get_num_frames(
+    num_frames = tools.get_num_frames(
         audio_data_len, window_size_samples_power, hop_size_samples
     )
 
@@ -50,3 +53,41 @@ def make_frames(audio_data, sampling_rate, window_size, hop_size):
         # frames[i, :] = frame
 
     return frames
+
+
+######### Aufgabe 2 (Spektralanalyse) #########
+def compute_absolute_spectrum(frames):
+    # Betragsspektrum : gibt die Amplitude (Stärke) der jeweiligen Frequenzkomponente an
+    # Jede Zeile ist ein Frame : repräsentiert das Betragsspektrum des Frames (enthält Frequenzinformationen: Frequenzkomponenten sind in der Reihenfolge von der niedrigsten bis zur höchsten Frequenz angeordnet)
+    #   axis=1      : Jedes Frame bzw. Zeile in Frames wird mit FFT analysiert
+    # np.fft.rfft() : Zerlegung in Frequenzkomponenten gibt ein Array von Komplexen Zahlen und automatisch den nicht redudanten Teil zurück
+    #   np.abs      : Berechnet den Betrag der Komplexen Zahlen (Amplitude)
+    spectrum = np.fft.rfft(frames, axis=1)
+    abs_spectrum = np.abs(spectrum)
+
+    return abs_spectrum
+
+
+def compute_features(
+    audio_file,
+    window_size=25e-3,
+    hop_size=10e-3,
+    feature_type="STFT",
+    n_filters=24,
+    fbank_fmin=0,
+    fbank_fmax=8000,
+    num_ceps=13,
+):
+    # Audiodatei einlesen
+    sampling_rate, audio_data = wavfile.read(audio_file)
+
+    # Audio Signal normalisieren
+    audio_data_norm = audio_data / np.max(np.abs(audio_data))
+
+    # In Frames zerlegen
+    frames = make_frames(audio_data_norm, sampling_rate, window_size, hop_size)
+
+    # STFT berechnen (Betragsspektrum)
+    abs_spectrum = compute_absolute_spectrum(frames)
+
+    return abs_spectrum
