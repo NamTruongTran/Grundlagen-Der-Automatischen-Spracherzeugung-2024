@@ -1,49 +1,38 @@
 import math
 
-
 def sec_to_samples(x, sampling_rate):
-    # TODO implement this method
-    #      x              : Zeitintervall in Sek
-    # sampling_rate       : Abtastfrequenz (Abtastung des Signals pro Sek)
-    # num_samples         : Anzahl der Abtastpunkte innerhalb von der Zeit x
-    num_samples = x * sampling_rate
-    num_samples_round = round(num_samples)
-    num_samples_int = int(num_samples_round)
-    return num_samples_int
 
+    return int(x * sampling_rate)
+    pass
 
 def next_pow2(x):
-    # TODO implement this method
-    # Logarithmus zur Basis 2 verwenden um die Potenz n zu bestimmen, damit 2^n >= x
-    # math.ceil : Aufrunden der Zahl, weil wenn n eine Dezi Zahl ist dann ist 2^n < x
-    two_next_pow = math.log2(x)
-    two_next_pow_round = math.ceil(two_next_pow)
-    two_next_pow_int = int(two_next_pow_round)
-    return two_next_pow_int
 
+    return math.ceil(math.log2(abs(x)))
+    pass
 
+# next pow2 rundet immer auf die naechst hoehere potenz
+# bsp: fuer 300 => 2^8 ist 256
+# man will aber eine potenz finden die groesser 300 ist
+# hoehere ist 2^9 = 500...
+
+# gibt die 2^9 zurueck, da die dft besser mit den zweierpotenzen arbeitet, statt einer ganzen zahl
 def dft_window_size(x, sampling_rate):
-    # TODO implement this method
 
-    # num_samples: Anzahl der Abtastpunkte im Zeitintervall x
-    num_samples = sec_to_samples(x, sampling_rate)
+    samples = sec_to_samples(x, sampling_rate)
+    b = 2 ** next_pow2(samples)
+    return b 
+    pass
 
-    # Nächste Zweierpotenz finden damit gilt : 2^n >= num_samples
-    w_size = 2 ** next_pow2(num_samples)
-
-    return w_size
-
-
+# window_size gibt die abtastrate an zb 512 samples/abtastraten
+# ein frame hat dann 512 samples
+# hop_size ist die einheit, in der das ganze signal nach und nach in frames abgetastet wird
+# man nimmt hop_size, damit sogenannte overlaps entstehen, die dann praeziser sind, da mehrmals die gleichen abschnitte/overlaps 
+# vom signal genommen werden
 def get_num_frames(signal_length_samples, window_size_samples, hop_size_samples):
-    # TODO implement this method
-    # Signal ist in Fenster unterteilt: Anzahl der Fenster für ein Audiosignal berechnen
-    # signal_length_samples : Gesamtanzahl der Abtastpunkte des Signals
-    # window_size_samples   : Anzahl der Abtastpunkte pro Fenster
-    # hop_size_samples      : Verschiebung von einem Fenster zum nächsten in Abtastpunkte
-    #      math.ceil        : Aufrunden falls das letzte Frame nicht mehr passt
-    # Formel gibt an wie oft gehopt wird bzw. wie viele Fenster im GesamtSignal
-    overlap = window_size_samples - hop_size_samples
-    num_frames = (signal_length_samples - overlap) / hop_size_samples
-    num_frames_round = math.ceil(num_frames)
 
-    return num_frames_round
+    overlap = window_size_samples - hop_size_samples
+
+    num_frames = (signal_length_samples - overlap) / hop_size_samples
+
+    return next_pow2(num_frames) # mit math bib wird zu math.ceil(num_frames)
+    pass
