@@ -54,6 +54,7 @@ def compute_features():
     plt.show()
 
 
+
 if __name__ == "__main__":
     ################
     # SPEKTRALANALYSE
@@ -63,7 +64,9 @@ if __name__ == "__main__":
     ################
     # DREIECKSFILTER
     ################
+    #plot_mel_filters()
 
     ##############
     # MEL-SPEKTRUM
     ##############
+    #plot_mel_spectrum()

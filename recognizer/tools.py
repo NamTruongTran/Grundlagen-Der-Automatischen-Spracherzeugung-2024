@@ -1,4 +1,5 @@
 import math
+import numpy as np
 
 def sec_to_samples(x, sampling_rate):
 
@@ -34,5 +35,13 @@ def get_num_frames(signal_length_samples, window_size_samples, hop_size_samples)
 
     num_frames = (signal_length_samples - overlap) / hop_size_samples
 
-    return next_pow2(num_frames) # mit math bib wird zu math.ceil(num_frames)
+    return math.ceil(num_frames) # mit math bib wird zu math.ceil(num_frames)
     pass
+
+def hz_to_mel(x):
+    # berechnet den Wert der Mel-Skala für den entsprechenden Frequenzwert x
+    return 2595 * np.log10(1 + x/700 )
+
+def mel_to_hz(x):
+    # Konvertiert eine Frequenz x (in Mel) zurück in Hz
+    return 700 * (100**(x / 2595) - 1 )

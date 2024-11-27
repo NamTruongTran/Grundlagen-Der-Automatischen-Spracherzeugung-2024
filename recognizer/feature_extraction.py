@@ -28,7 +28,7 @@ def make_frames(audio_data, sampling_rate, window_size, hop_size):
         # Extrahiere den aktuellen Rahmen und prüfe, ob Zero-Padding erforderlich ist
         if len(frame) < window_size_samples:
             # Füge Zero-Padding hinzu, falls das Ende des Audiosignals erreicht ist
-            frame = np.pad(frame, (window_size_samples - len(frame)))
+            frame = np.pad(frame, (0, window_size_samples - len(frame)))
  
         # Multipliziere den Rahmen mit dem Hamming-Fenster
         frames[i, :] = frame * hamming_window
@@ -54,6 +54,12 @@ def compute_absolute_spectrum(frames):
 
     return abs_spectrum
 
+def apply_mel_filters(abs_spectrum, filterbank):
+    """
+    Wendet eine Dreiecksfilterbank auf ein Betragsspektrum an.
+    """
+    return np.dot(filterbank, abs_spectrum)
+
 
 def compute_features(audio_file, window_size=25e-3, hop_size=10e-3, feature_type='STFT', fbank_fmax=8000, num_ceps=13 , n_filters=24, fbank_fmin=0):
     # Audiodatei einlesen
@@ -69,3 +75,24 @@ def compute_features(audio_file, window_size=25e-3, hop_size=10e-3, feature_type
     absolute_spectrum = compute_absolute_spectrum(frames)
     
     return absolute_spectrum
+
+def get_mel_filters(sampling_rate, window_size_sec, n_filters, f_min=0, f_max=8000):
+    """
+    Erstellt eine Mel-Dreiecksfilterbank.
+    """
+    N = int(sampling_rate * window_size_sec)
+    f_min_mel = tools.hz_to_mel(f_min)
+    f_max_mel = tools.hz_to_mel(f_max)
+    mel_points = np.linspace(f_min_mel, f_max_mel, n_filters + 2)
+    hz_points = tools.mel_to_hz(mel_points)
+    bin_points = np.floor((hz_points / sampling_rate) * (N // 2 + 1)).astype(int)
+
+    filters = np.zeros((n_filters, N // 2 + 1))
+    for m in range(1, n_filters + 1):
+        filters[m - 1, bin_points[m - 1]:bin_points[m]] = (
+            np.linspace(0, 1, bin_points[m] - bin_points[m - 1])
+        )
+        filters[m - 1, bin_points[m]:bin_points[m + 1]] = (
+            np.linspace(1, 0, bin_points[m + 1] - bin_points[m])
+        )
+    return filters
