@@ -44,4 +44,4 @@ def hz_to_mel(x):
 
 def mel_to_hz(x):
     # Konvertiert eine Frequenz x (in Mel) zurück in Hz
-    return 700 * (100**(x / 2595) - 1 )
+    return 700 * (10**(x / 2595) - 1 )

@@ -1,6 +1,7 @@
 import numpy as np
 import recognizer.tools as tools
 from scipy.io import wavfile
+from scipy.fftpack import dct
 
 def make_frames(audio_data, sampling_rate, window_size, hop_size):
     # TODO implement this method
@@ -55,13 +56,13 @@ def compute_absolute_spectrum(frames):
     return abs_spectrum
 
 def apply_mel_filters(abs_spectrum, filterbank):
-    """
-    Wendet eine Dreiecksfilterbank auf ein Betragsspektrum an.
-    """
-    return np.dot(filterbank, abs_spectrum)
+    
+    mel_spectrum = np.dot(abs_spectrum, filterbank.T)
+
+    return mel_spectrum
 
 
-def compute_features(audio_file, window_size=25e-3, hop_size=10e-3, feature_type='STFT', fbank_fmax=8000, num_ceps=13 , n_filters=24, fbank_fmin=0):
+def compute_features(audio_file, window_size=25e-3, hop_size=10e-3, feature_type='MFCC_D_DD', fbank_fmax=8000, num_ceps=13 , n_filters=24, fbank_fmin=0):
     # Audiodatei einlesen
     sampling_rate, audio_data = wavfile.read(audio_file)
     
@@ -73,112 +74,166 @@ def compute_features(audio_file, window_size=25e-3, hop_size=10e-3, feature_type
     
     # Berechnung des Betragsspektrums mit der Funktion compute_absolute_spectrum
     absolute_spectrum = compute_absolute_spectrum(frames)
+
+     # Feature-Berechnung basierend auf feature_type
+    if feature_type == 'FBANK':
+        # Mel-Filterbank berechnen
+        filterbank = get_mel_filters(sampling_rate, window_size, n_filters, fbank_fmin, fbank_fmax)
+
+        # Mel-Filterbank anwenden
+        mel_spectrum = apply_mel_filters(absolute_spectrum, filterbank)
+
+        # Logarithmierte Mel-Filterbank-Features berechnen
+        log_mel_spectrum = np.log(np.maximum(mel_spectrum, 1e-10))  # Stabilität durch max
+
+        return log_mel_spectrum
     
+    # Log-Mel-Spektrum berechnen
+    if feature_type.startswith('MFCC'):
+        filterbank = get_mel_filters(sampling_rate, window_size, n_filters, fbank_fmin, fbank_fmax)
+        mel_spectrum = apply_mel_filters(absolute_spectrum, filterbank)
+        log_mel_spectrum = np.log(np.maximum(mel_spectrum, 1e-10))
+        
+        # MFCCs berechnen
+        mfcc = compute_cepstrum(log_mel_spectrum, num_ceps)
+        
+        if feature_type == 'MFCC':
+            return mfcc
+        elif feature_type == 'MFCC_D':
+            delta = get_delta(mfcc)
+            return append_delta(mfcc, delta)
+        elif feature_type == 'MFCC_D_DD':
+            delta = get_delta(mfcc)
+            delta_delta = get_delta(delta)
+            return append_delta(append_delta(mfcc, delta), delta_delta)
+
     return absolute_spectrum
+
 
 def get_mel_filters(sampling_rate, window_size_sec, n_filters, f_min=0, f_max=8000):
 
-    # in FFT groesse
-    N = int(sampling_rate * window_size_sec)  
+    # FFT-Größe
+    N = tools.dft_window_size(window_size_sec, sampling_rate)
+
+    # Mel-Skala berechnen
     f_min_mel = tools.hz_to_mel(f_min)
     f_max_mel = tools.hz_to_mel(f_max)
 
-    # Stuetzstellen der Punkte
-    mel_points = np.linspace(f_min_mel, f_max_mel, n_filters + 2) # Stützstellen werden im Mel-Bereich äquidistant verteilt
-    hz_points = tools.mel_to_hz(mel_points) # wieder in Hz umgewandelt
-    
-    # Frequenzstützstellen (in Hz) mit der Formel aus der PDF berechnen
-    f_hz = (hz_points * sampling_rate / 2) * (2 / N)  # Frequenzen auf FFT-Bereich skalieren
-
-    # Bin-Indizes berechnen
-    f = np.floor((f_hz / (sampling_rate / 2)) * (N // 2)).astype(int)
-
-    # Indizes von Frequenzpunkten
-    f = np.floor((hz_points / (sampling_rate / 2)) * (N // 2)).astype(int)
-
-    # Sicherstellen, dass punkte in grenzen sind
-    f = np.clip(f, 0, N // 2)
-
-    # Debug 
-    print(f"f_min: {f_min}, f_max: {f_max}")
-    print(f"Mel points: {mel_points}")
-    print(f"Bin points: {f}")
-
-    # Filterbank-Matrix initialisieren
-    filters = np.zeros((n_filters, N // 2 ))
-
-    for m in range(1, n_filters + 1):
-        f_left = f[m - 1]  # f[m-1]
-        f_center = f[m]    # f[m]
-        f_right = f[m + 1]  # f[m+1]
-
-        # negative laengen uerspringen
-        if f_left == f_center or f_center == f_right:
-            print(f"Skipping filter {m}: f_left={f_left}, f_center={f_center}, f_right={f_right}")
-            continue
-
-        # links
-        if f_left < f_center:
-            filters[m - 1, f_left:f_center] = (np.arange(f_left, f_center) - f_left) / (f_center - f_left)
-
-        # rechts
-        if f_center < f_right:
-            filters[m - 1, f_center:f_right] = (f_right - np.arange(f_center, f_right)) / (f_right - f_center)
-
-    # Normalize each filter
-    for m in range(n_filters):
-        if np.sum(filters[m]) > 0:
-            filters[m] /= np.sum(filters[m])
-
-    return filters
-
-
-def get_mel_filterss(sampling_rate, window_size_sec, n_filters, f_min=0, f_max=8000):
-    """
-    Computes the Mel filterbank with triangular filters.
-    """
-    N = int(sampling_rate * window_size_sec)  # FFT size
-    f_min_mel = tools.hz_to_mel(f_min)
-    f_max_mel = tools.hz_to_mel(min(f_max, sampling_rate / 2))  # Clamp f_max to Nyquist frequency
-
-    # Mel points
+    # Mel-Frequenzstützstellen berechnen
     mel_points = np.linspace(f_min_mel, f_max_mel, n_filters + 2)
     hz_points = tools.mel_to_hz(mel_points)
 
-    # Bin points
-    bin_points = np.floor((hz_points / sampling_rate) * (N // 2 + 1)).astype(int)
+    # Frequenzen in Bin-Indizes umwandeln
+    #f = np.floor(hz_points / (sampling_rate/N)).astype(int)
+    f = np.floor((hz_points * N) / sampling_rate).astype(int)
+    #f = np.floor((hz_points / (sampling_rate / 2)) * (N)).astype(int)
+    #f = np.clip(f, 0, N // 2)
+    #f = np.unique(f)
+    #if len(f) < n_filters + 1:
+    #    raise ValueError("Zu wenige eindeutige Frequenz-Bin-Indizes!")
 
-    # Ensure bin points are within valid range
-    bin_points = np.clip(bin_points, 0, N // 2)
+    # Debugging-Ausgabe
+    print(f"f: {f}")
+    print(f"Hz points: {hz_points}")
 
-    # Debug output
-    print(f"f_min: {f_min}, f_max: {f_max}")
-    print(f"Mel points: {mel_points}")
-    print(f"Bin points: {bin_points}")
+    # Initialisieren der Filterbank
+    filters = np.zeros((n_filters, int(N/2) + 1)) 
 
-    # Initialize filterbank
-    filters = np.zeros((n_filters, N // 2 + 1))
-
+    # Filter berechnen
     for m in range(1, n_filters + 1):
-        f_left, f_center, f_right = bin_points[m - 1], bin_points[m], bin_points[m + 1]
 
-        # Skip degenerate filters
-        if f_left == f_center or f_center == f_right:
-            print(f"Skipping filter {m}: f_left={f_left}, f_center={f_center}, f_right={f_right}")
+        if m + 1 >= len(f):
+            print(f"Überspringen von Filter {m}: Index außerhalb der Grenzen")
             continue
 
-        # Left slope
-        if f_left < f_center:
-            filters[m - 1, f_left:f_center] = (np.arange(f_left, f_center) - f_left) / (f_center - f_left)
+        f_left, f_center, f_right = f[m - 1], f[m], f[m + 1]
 
-        # Right slope
-        if f_center < f_right:
-            filters[m - 1, f_center:f_right] = (f_right - np.arange(f_center, f_right)) / (f_right - f_center)
+        print(f"Filter {m}: f_left={f_left}, f_center={f_center}, f_right={f_right}")
+     
 
-    # Normalize each filter
+        # Linke Flanke
+        for k in range(f_left, f_center):
+            if f_left <= k < f_center:
+                filters[m - 1, k] = (
+                    2 * (k - f_left) / ((f_right - f_left) * (f_center - f_left))
+                )
+                
+                print(f"  Linke Flanke: k={k}, Wert={filters[m - 1, k]}")
+    
+        # Rechte Flanke
+        for k in range(f_center, f_right):
+            if f_center <= k <= f_right:
+                filters[m - 1, k] = (
+                    2 * (f_right - k) / ((f_right - f_left) * (f_right - f_center))
+                )
+                print(f"  Rechte Flanke: k={k}, Wert={filters[m - 1, k]}")
+                  
+   
+    # Normalisieren der Filter
+    #for m in range(n_filters):
+    #    if np.sum(filters[m]) > 0:
+    #        filters[m] /= np.sum(filters[m])
+    
     for m in range(n_filters):
-        if np.sum(filters[m]) > 0:
-            filters[m] /= np.sum(filters[m])
-
+        print(f"Filter {m + 1}:")
+    #    #print(f"Filter {m}: Left={f_left}, Center={f_center}, Right={f_right}")
+    #    print(f"f_left: {f[m]}, f_center: {f[m + 1]}, f_right: {f[m + 2]}")
+        print(f"Max-Amplitude: {np.max(filters[m])}")       
+    
     return filters
 
+def compute_cepstrum(mel_spectrum, num_ceps):
+    """
+    Berechnet das reelle Cepstrum aus einem gegebenen Mel-Spektrum.
+    
+    Parameters:
+    - mel_spectrum: 2D-Array (Frames x Filter), logaritmiertes Mel-Spektrum.
+    - num_ceps: Anzahl der zurückzugebenden Cepstrum-Koeffizienten.
+    
+    Returns:
+    - cepstrum: 2D-Array (Frames x num_ceps), die berechneten Cepstrum-Koeffizienten.
+    """
+    # Numerische Probleme vermeiden
+    mel_spectrum = np.maximum(mel_spectrum, np.finfo(float).eps)
+    
+    # Logarithmus des Mel-Spektrums berechnen
+    log_mel_spectrum = np.log(mel_spectrum)
+    
+    # Diskrete Kosinustransformation (DCT)
+    cepstrum = dct(log_mel_spectrum, type=2, axis=1, norm='ortho')
+    
+    # Nur die ersten num_ceps Koeffizienten zurückgeben
+    return cepstrum[:, :num_ceps]
+
+def get_delta(x):
+    """
+    Berechnet die erste zeitliche Ableitung eines Merkmalsvektors.
+    
+    Parameters:
+    - x: 2D-Array (Frames x Features), Merkmalsvektor.
+    
+    Returns:
+    - delta: 2D-Array (Frames x Features), die berechnete Ableitung.
+    """
+    delta = np.zeros_like(x)
+    for t in range(x.shape[0]):
+        if t == 0:
+            delta[t] = x[t + 1] - x[t]
+        elif t == x.shape[0] - 1:
+            delta[t] = x[t] - x[t - 1]
+        else:
+            delta[t] = 0.5 * (x[t + 1] - x[t - 1])
+    return delta
+
+def append_delta(x, delta):
+    """
+    Konkatenieren eines Merkmalsvektors mit dessen erster Ableitung.
+    
+    Parameters:
+    - x: 2D-Array (Frames x Features), ursprünglicher Merkmalsvektor.
+    - delta: 2D-Array (Frames x Features), erste Ableitung.
+    
+    Returns:
+    - concatenated: 2D-Array (Frames x 2 * Features), konkateniertes Ergebnis.
+    """
+    return np.hstack((x, delta))

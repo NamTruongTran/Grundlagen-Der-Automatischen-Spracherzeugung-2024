@@ -60,7 +60,7 @@ def plot_mel_filters():
     n_filters = 24
 
     # Mel-Filterbank berechnen
-    mel_filters = fe.get_mel_filterss(sampling_rate, window_size, n_filters)
+    mel_filters = fe.get_mel_filters(sampling_rate, window_size, n_filters)
 
     # Plot der Filterbank
     plt.figure(figsize=(10, 6))
@@ -68,8 +68,6 @@ def plot_mel_filters():
         plt.plot(mel_filters[i])
 
     plt.title("Mel-Dreiecksfilterbank")
-    plt.xlabel("Frequenz-Bins")
-    plt.ylabel("Amplitude")
     plt.grid()
     plt.show()
 
@@ -98,6 +96,19 @@ def plot_mel_spectrum():
     plt.title("Mel-Spektrum der Audiodatei")
     plt.show()
 
+def plot_mfcc():
+    audio_file = "data/TEST-MAN-AH-3O33951A.wav"
+    sampling_rate, audio_data = wavfile.read(audio_file)
+    features = fe.compute_features(audio_file, feature_type='MFCC_D_DD', num_ceps=13)
+
+    plt.figure(figsize=(10, 6))
+    plt.imshow(features.T, aspect='auto', origin='lower', cmap='viridis')
+    plt.colorbar(label='Amplitude')
+    plt.xlabel('Zeit (Frames)')
+    plt.ylabel('MFCC + Delta + Delta-Delta Index')
+    plt.title('MFCCs mit zeitlichen Ableitungen')
+    plt.show()
+
 if __name__ == "__main__":
     ################
     # SPEKTRALANALYSE
@@ -107,9 +118,9 @@ if __name__ == "__main__":
     ################
     # DREIECKSFILTER
     ################
-    plot_mel_filters() 
+    #plot_mel_filters() 
 
     ##############
     # MEL-SPEKTRUM
     ##############
-    #plot_mel_spectrum()
+    plot_mfcc()
