@@ -114,6 +114,7 @@ if __name__ == "__main__":
     # SPEKTRALANALYSE
     ################
     #compute_features()
+    plot_mel_spectrum()
 
     ################
     # DREIECKSFILTER
@@ -123,4 +124,4 @@ if __name__ == "__main__":
     ##############
     # MEL-SPEKTRUM
     ##############
-    plot_mfcc()
+    #plot_mfcc()

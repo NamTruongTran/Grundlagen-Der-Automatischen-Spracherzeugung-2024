@@ -55,14 +55,7 @@ def compute_absolute_spectrum(frames):
 
     return abs_spectrum
 
-def apply_mel_filters(abs_spectrum, filterbank):
-    
-    mel_spectrum = np.dot(abs_spectrum, filterbank.T)
-
-    return mel_spectrum
-
-
-def compute_features(audio_file, window_size=25e-3, hop_size=10e-3, feature_type='MFCC_D_DD', fbank_fmax=8000, num_ceps=13 , n_filters=24, fbank_fmin=0):
+def compute_features(audio_file, window_size=25e-3, hop_size=10e-3, feature_type='FBANK', fbank_fmax=8000, num_ceps=13 , n_filters=24, fbank_fmin=0):
     # Audiodatei einlesen
     sampling_rate, audio_data = wavfile.read(audio_file)
     
@@ -82,30 +75,31 @@ def compute_features(audio_file, window_size=25e-3, hop_size=10e-3, feature_type
 
         # Mel-Filterbank anwenden
         mel_spectrum = apply_mel_filters(absolute_spectrum, filterbank)
-
-        # Logarithmierte Mel-Filterbank-Features berechnen
-        log_mel_spectrum = np.log(np.maximum(mel_spectrum, 1e-10))  # Stabilität durch max
-
+        epsi = np.full(mel_spectrum.shape, np.nextafter(0, 1))
+        mel_spectrum = np.where(mel_spectrum == 0, epsi, mel_spectrum)
+        log_mel_spectrum=np.log(mel_spectrum)
         return log_mel_spectrum
+
     
     # Log-Mel-Spektrum berechnen
     if feature_type.startswith('MFCC'):
         filterbank = get_mel_filters(sampling_rate, window_size, n_filters, fbank_fmin, fbank_fmax)
         mel_spectrum = apply_mel_filters(absolute_spectrum, filterbank)
         log_mel_spectrum = np.log(np.maximum(mel_spectrum, 1e-10))
+        cep = compute_cepstrum(absolute_spectrum, num_ceps)
         
         # MFCCs berechnen
-        mfcc = compute_cepstrum(log_mel_spectrum, num_ceps)
+        #mfcc = compute_cepstrum(log_mel_spectrum, num_ceps)
         
         if feature_type == 'MFCC':
-            return mfcc
+            return cep
         elif feature_type == 'MFCC_D':
-            delta = get_delta(mfcc)
-            return append_delta(mfcc, delta)
+            delta = get_delta(cep)
+            return append_delta(cep, delta)
         elif feature_type == 'MFCC_D_DD':
-            delta = get_delta(mfcc)
+            delta = get_delta(cep)
             delta_delta = get_delta(delta)
-            return append_delta(append_delta(mfcc, delta), delta_delta)
+            return append_delta(append_delta(cep, delta), delta_delta)
 
     return absolute_spectrum
 
@@ -118,23 +112,17 @@ def get_mel_filters(sampling_rate, window_size_sec, n_filters, f_min=0, f_max=80
     # Mel-Skala berechnen
     f_min_mel = tools.hz_to_mel(f_min)
     f_max_mel = tools.hz_to_mel(f_max)
+    
 
     # Mel-Frequenzstützstellen berechnen
     mel_points = np.linspace(f_min_mel, f_max_mel, n_filters + 2)
-    hz_points = tools.mel_to_hz(mel_points)
+    #hz_points = np.array([tools.mel_to_hz(i) for i in mel_points])
+    hz_points = tools.mel_to_hz(mel_points) 
+
 
     # Frequenzen in Bin-Indizes umwandeln
-    #f = np.floor(hz_points / (sampling_rate/N)).astype(int)
-    f = np.floor((hz_points * N) / sampling_rate).astype(int)
-    #f = np.floor((hz_points / (sampling_rate / 2)) * (N)).astype(int)
-    #f = np.clip(f, 0, N // 2)
-    #f = np.unique(f)
-    #if len(f) < n_filters + 1:
-    #    raise ValueError("Zu wenige eindeutige Frequenz-Bin-Indizes!")
-
-    # Debugging-Ausgabe
-    print(f"f: {f}")
-    print(f"Hz points: {hz_points}")
+    f = np.round(hz_points / (sampling_rate/N)).astype(int)
+    #f = np.round((hz_points/((sampling_rate) / N))).astype(int)
 
     # Initialisieren der Filterbank
     filters = np.zeros((n_filters, int(N/2) + 1)) 
@@ -147,52 +135,32 @@ def get_mel_filters(sampling_rate, window_size_sec, n_filters, f_min=0, f_max=80
             continue
 
         f_left, f_center, f_right = f[m - 1], f[m], f[m + 1]
-
-        print(f"Filter {m}: f_left={f_left}, f_center={f_center}, f_right={f_right}")
      
-
         # Linke Flanke
         for k in range(f_left, f_center):
             if f_left <= k < f_center:
                 filters[m - 1, k] = (
                     2 * (k - f_left) / ((f_right - f_left) * (f_center - f_left))
                 )
-                
-                print(f"  Linke Flanke: k={k}, Wert={filters[m - 1, k]}")
-    
+                    
         # Rechte Flanke
         for k in range(f_center, f_right):
             if f_center <= k <= f_right:
                 filters[m - 1, k] = (
                     2 * (f_right - k) / ((f_right - f_left) * (f_right - f_center))
                 )
-                print(f"  Rechte Flanke: k={k}, Wert={filters[m - 1, k]}")
-                  
-   
-    # Normalisieren der Filter
-    #for m in range(n_filters):
-    #    if np.sum(filters[m]) > 0:
-    #        filters[m] /= np.sum(filters[m])
-    
-    for m in range(n_filters):
-        print(f"Filter {m + 1}:")
-    #    #print(f"Filter {m}: Left={f_left}, Center={f_center}, Right={f_right}")
-    #    print(f"f_left: {f[m]}, f_center: {f[m + 1]}, f_right: {f[m + 2]}")
-        print(f"Max-Amplitude: {np.max(filters[m])}")       
-    
+         
+
     return filters
 
+
+def apply_mel_filters(abs_spectrum, filterbank):
+    
+    S_mel = np.dot(abs_spectrum, filterbank.T)
+    return S_mel
+
+
 def compute_cepstrum(mel_spectrum, num_ceps):
-    """
-    Berechnet das reelle Cepstrum aus einem gegebenen Mel-Spektrum.
-    
-    Parameters:
-    - mel_spectrum: 2D-Array (Frames x Filter), logaritmiertes Mel-Spektrum.
-    - num_ceps: Anzahl der zurückzugebenden Cepstrum-Koeffizienten.
-    
-    Returns:
-    - cepstrum: 2D-Array (Frames x num_ceps), die berechneten Cepstrum-Koeffizienten.
-    """
     # Numerische Probleme vermeiden
     mel_spectrum = np.maximum(mel_spectrum, np.finfo(float).eps)
     
@@ -202,19 +170,11 @@ def compute_cepstrum(mel_spectrum, num_ceps):
     # Diskrete Kosinustransformation (DCT)
     cepstrum = dct(log_mel_spectrum, type=2, axis=1, norm='ortho')
     
-    # Nur die ersten num_ceps Koeffizienten zurückgeben
+    # Gibt nur die ersten num_ceps Koeffizienten zurueck
     return cepstrum[:, :num_ceps]
 
 def get_delta(x):
-    """
-    Berechnet die erste zeitliche Ableitung eines Merkmalsvektors.
-    
-    Parameters:
-    - x: 2D-Array (Frames x Features), Merkmalsvektor.
-    
-    Returns:
-    - delta: 2D-Array (Frames x Features), die berechnete Ableitung.
-    """
+    # berechnet erste zeitlich Ableitung des Merkmalsvektors
     delta = np.zeros_like(x)
     for t in range(x.shape[0]):
         if t == 0:
@@ -226,14 +186,5 @@ def get_delta(x):
     return delta
 
 def append_delta(x, delta):
-    """
-    Konkatenieren eines Merkmalsvektors mit dessen erster Ableitung.
-    
-    Parameters:
-    - x: 2D-Array (Frames x Features), ursprünglicher Merkmalsvektor.
-    - delta: 2D-Array (Frames x Features), erste Ableitung.
-    
-    Returns:
-    - concatenated: 2D-Array (Frames x 2 * Features), konkateniertes Ergebnis.
-    """
+    # konkateniert Merkmalsvektor mit erster zeitlich Ableitung
     return np.hstack((x, delta))
