@@ -120,7 +120,7 @@ def get_mel_filters(sampling_rate, window_size_sec, n_filters, f_min=0, f_max=80
     hz_points = tools.mel_to_hz(mel_points) 
 
 
-    # Frequenzen in Bin-Indizes umwandeln
+    # Frequenzen in Indizes umwandeln
     f = np.round(hz_points / (sampling_rate/N)).astype(int)
     #f = np.round((hz_points/((sampling_rate) / N))).astype(int)
 
@@ -129,10 +129,6 @@ def get_mel_filters(sampling_rate, window_size_sec, n_filters, f_min=0, f_max=80
 
     # Filter berechnen
     for m in range(1, n_filters + 1):
-
-        if m + 1 >= len(f):
-            print(f"Überspringen von Filter {m}: Index außerhalb der Grenzen")
-            continue
 
         f_left, f_center, f_right = f[m - 1], f[m], f[m + 1]
      

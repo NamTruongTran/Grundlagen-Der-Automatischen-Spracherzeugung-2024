@@ -22,7 +22,7 @@ def compute_features():
         extent=[0, mel_spectrum.shape[0] * hop_size, 0, n_filters],
         cmap="viridis",
     )
-    plt.colorbar(label="Amplitude (log)")
+    plt.colorbar()
     plt.xlabel("Zeit in Sekunden")
     plt.ylabel("Mel-Filter-Index")
     plt.title("Mel-Spektrum der Audiodatei")
