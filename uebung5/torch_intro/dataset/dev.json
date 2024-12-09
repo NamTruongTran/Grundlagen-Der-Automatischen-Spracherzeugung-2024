@@ -1,0 +1,3974 @@
+{
+    "male_1000.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1000.wav",
+        "label": 0
+    },
+    "male_1004.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1004.wav",
+        "label": 0
+    },
+    "male_1015.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1015.wav",
+        "label": 0
+    },
+    "male_1022.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1022.wav",
+        "label": 0
+    },
+    "male_1029.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1029.wav",
+        "label": 0
+    },
+    "male_1037.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1037.wav",
+        "label": 0
+    },
+    "male_105.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/105.wav",
+        "label": 0
+    },
+    "male_1069.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1069.wav",
+        "label": 0
+    },
+    "male_1074.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1074.wav",
+        "label": 0
+    },
+    "male_1076.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1076.wav",
+        "label": 0
+    },
+    "male_1082.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1082.wav",
+        "label": 0
+    },
+    "male_1084.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1084.wav",
+        "label": 0
+    },
+    "male_1052.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1052.wav",
+        "label": 0
+    },
+    "male_1070.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1070.wav",
+        "label": 0
+    },
+    "male_1198.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1198.wav",
+        "label": 0
+    },
+    "male_1216.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1216.wav",
+        "label": 0
+    },
+    "male_1325.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1325.wav",
+        "label": 0
+    },
+    "male_1090.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1090.wav",
+        "label": 0
+    },
+    "male_1091.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1091.wav",
+        "label": 0
+    },
+    "male_1095.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1095.wav",
+        "label": 0
+    },
+    "male_111.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/111.wav",
+        "label": 0
+    },
+    "male_1111.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1111.wav",
+        "label": 0
+    },
+    "male_1116.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1116.wav",
+        "label": 0
+    },
+    "male_1117.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1117.wav",
+        "label": 0
+    },
+    "male_1126.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1126.wav",
+        "label": 0
+    },
+    "male_1130.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1130.wav",
+        "label": 0
+    },
+    "male_1132.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1132.wav",
+        "label": 0
+    },
+    "male_1147.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1147.wav",
+        "label": 0
+    },
+    "male_1159.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1159.wav",
+        "label": 0
+    },
+    "male_1177.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1177.wav",
+        "label": 0
+    },
+    "male_1184.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1184.wav",
+        "label": 0
+    },
+    "male_1186.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1186.wav",
+        "label": 0
+    },
+    "male_1189.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1189.wav",
+        "label": 0
+    },
+    "male_12.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/12.wav",
+        "label": 0
+    },
+    "male_1200.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1200.wav",
+        "label": 0
+    },
+    "male_1205.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1205.wav",
+        "label": 0
+    },
+    "male_1210.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1210.wav",
+        "label": 0
+    },
+    "male_1220.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1220.wav",
+        "label": 0
+    },
+    "male_1237.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1237.wav",
+        "label": 0
+    },
+    "male_124.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/124.wav",
+        "label": 0
+    },
+    "male_1246.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1246.wav",
+        "label": 0
+    },
+    "male_126.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/126.wav",
+        "label": 0
+    },
+    "male_1274.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1274.wav",
+        "label": 0
+    },
+    "male_1277.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1277.wav",
+        "label": 0
+    },
+    "male_1278.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1278.wav",
+        "label": 0
+    },
+    "male_1279.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1279.wav",
+        "label": 0
+    },
+    "male_1281.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1281.wav",
+        "label": 0
+    },
+    "male_1286.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1286.wav",
+        "label": 0
+    },
+    "male_1288.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1288.wav",
+        "label": 0
+    },
+    "male_1291.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1291.wav",
+        "label": 0
+    },
+    "male_1295.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1295.wav",
+        "label": 0
+    },
+    "male_130.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/130.wav",
+        "label": 0
+    },
+    "male_1305.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1305.wav",
+        "label": 0
+    },
+    "male_1308.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1308.wav",
+        "label": 0
+    },
+    "male_1309.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1309.wav",
+        "label": 0
+    },
+    "male_1316.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1316.wav",
+        "label": 0
+    },
+    "male_1318.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1318.wav",
+        "label": 0
+    },
+    "male_1322.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1322.wav",
+        "label": 0
+    },
+    "male_1326.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1326.wav",
+        "label": 0
+    },
+    "male_1335.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1335.wav",
+        "label": 0
+    },
+    "male_1337.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1337.wav",
+        "label": 0
+    },
+    "male_1358.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1358.wav",
+        "label": 0
+    },
+    "male_1359.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1359.wav",
+        "label": 0
+    },
+    "male_1362.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1362.wav",
+        "label": 0
+    },
+    "male_1374.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1374.wav",
+        "label": 0
+    },
+    "male_1383.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1383.wav",
+        "label": 0
+    },
+    "male_1384.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1384.wav",
+        "label": 0
+    },
+    "male_140.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/140.wav",
+        "label": 0
+    },
+    "male_1411.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1411.wav",
+        "label": 0
+    },
+    "male_1427.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1427.wav",
+        "label": 0
+    },
+    "male_1436.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1436.wav",
+        "label": 0
+    },
+    "male_1444.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1444.wav",
+        "label": 0
+    },
+    "male_1457.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1457.wav",
+        "label": 0
+    },
+    "male_1481.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1481.wav",
+        "label": 0
+    },
+    "male_1487.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1487.wav",
+        "label": 0
+    },
+    "male_1490.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1490.wav",
+        "label": 0
+    },
+    "male_1493.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1493.wav",
+        "label": 0
+    },
+    "male_15.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/15.wav",
+        "label": 0
+    },
+    "male_1505.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1505.wav",
+        "label": 0
+    },
+    "male_1511.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1511.wav",
+        "label": 0
+    },
+    "male_1540.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1540.wav",
+        "label": 0
+    },
+    "male_1545.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1545.wav",
+        "label": 0
+    },
+    "male_1547.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1547.wav",
+        "label": 0
+    },
+    "male_156.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/156.wav",
+        "label": 0
+    },
+    "male_1564.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1564.wav",
+        "label": 0
+    },
+    "male_1572.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1572.wav",
+        "label": 0
+    },
+    "male_1573.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1573.wav",
+        "label": 0
+    },
+    "male_1576.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1576.wav",
+        "label": 0
+    },
+    "male_1579.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1579.wav",
+        "label": 0
+    },
+    "male_160.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/160.wav",
+        "label": 0
+    },
+    "male_1602.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1602.wav",
+        "label": 0
+    },
+    "male_1606.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1606.wav",
+        "label": 0
+    },
+    "male_1618.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1618.wav",
+        "label": 0
+    },
+    "male_162.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/162.wav",
+        "label": 0
+    },
+    "male_1629.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1629.wav",
+        "label": 0
+    },
+    "male_1639.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1639.wav",
+        "label": 0
+    },
+    "male_165.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/165.wav",
+        "label": 0
+    },
+    "male_1651.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1651.wav",
+        "label": 0
+    },
+    "male_1656.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1656.wav",
+        "label": 0
+    },
+    "male_1658.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1658.wav",
+        "label": 0
+    },
+    "male_1663.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1663.wav",
+        "label": 0
+    },
+    "male_1665.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1665.wav",
+        "label": 0
+    },
+    "male_1671.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1671.wav",
+        "label": 0
+    },
+    "male_1674.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1674.wav",
+        "label": 0
+    },
+    "male_1678.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1678.wav",
+        "label": 0
+    },
+    "male_1679.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1679.wav",
+        "label": 0
+    },
+    "male_1680.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1680.wav",
+        "label": 0
+    },
+    "male_1686.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1686.wav",
+        "label": 0
+    },
+    "male_1361.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1361.wav",
+        "label": 0
+    },
+    "male_1489.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1489.wav",
+        "label": 0
+    },
+    "male_1543.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1543.wav",
+        "label": 0
+    },
+    "male_1561.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1561.wav",
+        "label": 0
+    },
+    "male_1598.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1598.wav",
+        "label": 0
+    },
+    "male_1652.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1652.wav",
+        "label": 0
+    },
+    "male_1694.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1694.wav",
+        "label": 0
+    },
+    "male_1697.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1697.wav",
+        "label": 0
+    },
+    "male_171.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/171.wav",
+        "label": 0
+    },
+    "male_1721.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1721.wav",
+        "label": 0
+    },
+    "male_1727.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1727.wav",
+        "label": 0
+    },
+    "male_1729.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1729.wav",
+        "label": 0
+    },
+    "male_173.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/173.wav",
+        "label": 0
+    },
+    "male_1734.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1734.wav",
+        "label": 0
+    },
+    "male_1735.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1735.wav",
+        "label": 0
+    },
+    "male_1739.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1739.wav",
+        "label": 0
+    },
+    "male_174.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/174.wav",
+        "label": 0
+    },
+    "male_1742.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1742.wav",
+        "label": 0
+    },
+    "male_1758.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1758.wav",
+        "label": 0
+    },
+    "male_1762.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1762.wav",
+        "label": 0
+    },
+    "male_1764.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1764.wav",
+        "label": 0
+    },
+    "male_1766.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1766.wav",
+        "label": 0
+    },
+    "male_177.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/177.wav",
+        "label": 0
+    },
+    "male_1778.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1778.wav",
+        "label": 0
+    },
+    "male_179.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/179.wav",
+        "label": 0
+    },
+    "male_1790.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1790.wav",
+        "label": 0
+    },
+    "male_1793.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1793.wav",
+        "label": 0
+    },
+    "male_1795.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1795.wav",
+        "label": 0
+    },
+    "male_1797.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1797.wav",
+        "label": 0
+    },
+    "male_1809.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1809.wav",
+        "label": 0
+    },
+    "male_1818.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1818.wav",
+        "label": 0
+    },
+    "male_1822.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1822.wav",
+        "label": 0
+    },
+    "male_1829.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1829.wav",
+        "label": 0
+    },
+    "male_1832.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1832.wav",
+        "label": 0
+    },
+    "male_1838.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1838.wav",
+        "label": 0
+    },
+    "male_1839.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1839.wav",
+        "label": 0
+    },
+    "male_1840.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1840.wav",
+        "label": 0
+    },
+    "male_1847.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1847.wav",
+        "label": 0
+    },
+    "male_1849.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1849.wav",
+        "label": 0
+    },
+    "male_1850.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1850.wav",
+        "label": 0
+    },
+    "male_1854.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1854.wav",
+        "label": 0
+    },
+    "male_1855.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1855.wav",
+        "label": 0
+    },
+    "male_1890.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1890.wav",
+        "label": 0
+    },
+    "male_1901.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1901.wav",
+        "label": 0
+    },
+    "male_1904.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1904.wav",
+        "label": 0
+    },
+    "male_191.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/191.wav",
+        "label": 0
+    },
+    "male_1911.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1911.wav",
+        "label": 0
+    },
+    "male_1917.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1917.wav",
+        "label": 0
+    },
+    "male_1918.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1918.wav",
+        "label": 0
+    },
+    "male_1921.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1921.wav",
+        "label": 0
+    },
+    "male_1927.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1927.wav",
+        "label": 0
+    },
+    "male_1931.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1931.wav",
+        "label": 0
+    },
+    "male_194.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/194.wav",
+        "label": 0
+    },
+    "male_1942.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1942.wav",
+        "label": 0
+    },
+    "male_1952.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1952.wav",
+        "label": 0
+    },
+    "male_196.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/196.wav",
+        "label": 0
+    },
+    "male_1965.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1965.wav",
+        "label": 0
+    },
+    "male_1973.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1973.wav",
+        "label": 0
+    },
+    "male_2011.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2011.wav",
+        "label": 0
+    },
+    "male_2015.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2015.wav",
+        "label": 0
+    },
+    "male_1761.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1761.wav",
+        "label": 0
+    },
+    "male_1816.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1816.wav",
+        "label": 0
+    },
+    "male_1870.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/1870.wav",
+        "label": 0
+    },
+    "male_204.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/204.wav",
+        "label": 0
+    },
+    "male_2044.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2044.wav",
+        "label": 0
+    },
+    "male_2046.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2046.wav",
+        "label": 0
+    },
+    "male_2049.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2049.wav",
+        "label": 0
+    },
+    "male_2063.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2063.wav",
+        "label": 0
+    },
+    "male_2064.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2064.wav",
+        "label": 0
+    },
+    "male_2066.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2066.wav",
+        "label": 0
+    },
+    "male_2067.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2067.wav",
+        "label": 0
+    },
+    "male_2069.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2069.wav",
+        "label": 0
+    },
+    "male_207.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/207.wav",
+        "label": 0
+    },
+    "male_2076.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2076.wav",
+        "label": 0
+    },
+    "male_2077.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2077.wav",
+        "label": 0
+    },
+    "male_2079.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2079.wav",
+        "label": 0
+    },
+    "male_208.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/208.wav",
+        "label": 0
+    },
+    "male_2081.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2081.wav",
+        "label": 0
+    },
+    "male_211.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/211.wav",
+        "label": 0
+    },
+    "male_2117.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2117.wav",
+        "label": 0
+    },
+    "male_2118.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2118.wav",
+        "label": 0
+    },
+    "male_213.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/213.wav",
+        "label": 0
+    },
+    "male_2133.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2133.wav",
+        "label": 0
+    },
+    "male_214.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/214.wav",
+        "label": 0
+    },
+    "male_2140.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2140.wav",
+        "label": 0
+    },
+    "male_2158.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2158.wav",
+        "label": 0
+    },
+    "male_216.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/216.wav",
+        "label": 0
+    },
+    "male_2165.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2165.wav",
+        "label": 0
+    },
+    "male_2170.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2170.wav",
+        "label": 0
+    },
+    "male_2171.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2171.wav",
+        "label": 0
+    },
+    "male_2185.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2185.wav",
+        "label": 0
+    },
+    "male_2187.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2187.wav",
+        "label": 0
+    },
+    "male_2203.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2203.wav",
+        "label": 0
+    },
+    "male_2207.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2207.wav",
+        "label": 0
+    },
+    "male_2217.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2217.wav",
+        "label": 0
+    },
+    "male_2222.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2222.wav",
+        "label": 0
+    },
+    "male_224.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/224.wav",
+        "label": 0
+    },
+    "male_2241.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2241.wav",
+        "label": 0
+    },
+    "male_2247.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2247.wav",
+        "label": 0
+    },
+    "male_2259.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2259.wav",
+        "label": 0
+    },
+    "male_2262.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2262.wav",
+        "label": 0
+    },
+    "male_2268.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2268.wav",
+        "label": 0
+    },
+    "male_2272.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2272.wav",
+        "label": 0
+    },
+    "male_2278.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2278.wav",
+        "label": 0
+    },
+    "male_2285.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2285.wav",
+        "label": 0
+    },
+    "male_2288.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2288.wav",
+        "label": 0
+    },
+    "male_2291.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2291.wav",
+        "label": 0
+    },
+    "male_230.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/230.wav",
+        "label": 0
+    },
+    "male_2303.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2303.wav",
+        "label": 0
+    },
+    "male_2317.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2317.wav",
+        "label": 0
+    },
+    "male_2320.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2320.wav",
+        "label": 0
+    },
+    "male_233.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/233.wav",
+        "label": 0
+    },
+    "male_2337.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2337.wav",
+        "label": 0
+    },
+    "male_2338.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2338.wav",
+        "label": 0
+    },
+    "male_2339.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2339.wav",
+        "label": 0
+    },
+    "male_2340.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2340.wav",
+        "label": 0
+    },
+    "male_2344.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2344.wav",
+        "label": 0
+    },
+    "male_2355.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2355.wav",
+        "label": 0
+    },
+    "male_2052.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2052.wav",
+        "label": 0
+    },
+    "male_2252.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2252.wav",
+        "label": 0
+    },
+    "male_2325.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2325.wav",
+        "label": 0
+    },
+    "male_2383.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2383.wav",
+        "label": 0
+    },
+    "male_2385.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2385.wav",
+        "label": 0
+    },
+    "male_24.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/24.wav",
+        "label": 0
+    },
+    "male_240.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/240.wav",
+        "label": 0
+    },
+    "male_2402.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2402.wav",
+        "label": 0
+    },
+    "male_2403.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2403.wav",
+        "label": 0
+    },
+    "male_2407.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2407.wav",
+        "label": 0
+    },
+    "male_2415.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2415.wav",
+        "label": 0
+    },
+    "male_2417.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2417.wav",
+        "label": 0
+    },
+    "male_2418.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2418.wav",
+        "label": 0
+    },
+    "male_2419.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2419.wav",
+        "label": 0
+    },
+    "male_2453.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2453.wav",
+        "label": 0
+    },
+    "male_2463.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2463.wav",
+        "label": 0
+    },
+    "male_2467.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2467.wav",
+        "label": 0
+    },
+    "male_2471.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2471.wav",
+        "label": 0
+    },
+    "male_2472.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2472.wav",
+        "label": 0
+    },
+    "male_2475.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2475.wav",
+        "label": 0
+    },
+    "male_2479.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2479.wav",
+        "label": 0
+    },
+    "male_249.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/249.wav",
+        "label": 0
+    },
+    "male_2502.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2502.wav",
+        "label": 0
+    },
+    "male_2516.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2516.wav",
+        "label": 0
+    },
+    "male_2517.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2517.wav",
+        "label": 0
+    },
+    "male_2522.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2522.wav",
+        "label": 0
+    },
+    "male_2530.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2530.wav",
+        "label": 0
+    },
+    "male_2539.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2539.wav",
+        "label": 0
+    },
+    "male_2548.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2548.wav",
+        "label": 0
+    },
+    "male_2557.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2557.wav",
+        "label": 0
+    },
+    "male_256.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/256.wav",
+        "label": 0
+    },
+    "male_2564.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2564.wav",
+        "label": 0
+    },
+    "male_2565.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2565.wav",
+        "label": 0
+    },
+    "male_2567.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2567.wav",
+        "label": 0
+    },
+    "male_2575.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2575.wav",
+        "label": 0
+    },
+    "male_2586.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2586.wav",
+        "label": 0
+    },
+    "male_2596.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2596.wav",
+        "label": 0
+    },
+    "male_2599.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2599.wav",
+        "label": 0
+    },
+    "male_2602.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2602.wav",
+        "label": 0
+    },
+    "male_2603.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2603.wav",
+        "label": 0
+    },
+    "male_2604.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2604.wav",
+        "label": 0
+    },
+    "male_2605.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2605.wav",
+        "label": 0
+    },
+    "male_2615.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2615.wav",
+        "label": 0
+    },
+    "male_2619.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2619.wav",
+        "label": 0
+    },
+    "male_2623.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2623.wav",
+        "label": 0
+    },
+    "male_2625.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2625.wav",
+        "label": 0
+    },
+    "male_2629.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2629.wav",
+        "label": 0
+    },
+    "male_2630.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2630.wav",
+        "label": 0
+    },
+    "male_2636.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2636.wav",
+        "label": 0
+    },
+    "male_264.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/264.wav",
+        "label": 0
+    },
+    "male_2640.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2640.wav",
+        "label": 0
+    },
+    "male_2650.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2650.wav",
+        "label": 0
+    },
+    "male_2655.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2655.wav",
+        "label": 0
+    },
+    "male_2660.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2660.wav",
+        "label": 0
+    },
+    "male_2662.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2662.wav",
+        "label": 0
+    },
+    "male_2676.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2676.wav",
+        "label": 0
+    },
+    "male_2678.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2678.wav",
+        "label": 0
+    },
+    "male_269.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/269.wav",
+        "label": 0
+    },
+    "male_2699.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2699.wav",
+        "label": 0
+    },
+    "male_27.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/27.wav",
+        "label": 0
+    },
+    "male_2700.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2700.wav",
+        "label": 0
+    },
+    "male_2705.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2705.wav",
+        "label": 0
+    },
+    "male_2706.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2706.wav",
+        "label": 0
+    },
+    "male_2709.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2709.wav",
+        "label": 0
+    },
+    "male_271.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/271.wav",
+        "label": 0
+    },
+    "male_2711.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2711.wav",
+        "label": 0
+    },
+    "male_272.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/272.wav",
+        "label": 0
+    },
+    "male_2722.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2722.wav",
+        "label": 0
+    },
+    "male_2489.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2489.wav",
+        "label": 0
+    },
+    "male_2525.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2525.wav",
+        "label": 0
+    },
+    "male_2561.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2561.wav",
+        "label": 0
+    },
+    "male_2616.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2616.wav",
+        "label": 0
+    },
+    "male_2689.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2689.wav",
+        "label": 0
+    },
+    "male_2034.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2034.wav",
+        "label": 0
+    },
+    "male_3070.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3070.wav",
+        "label": 0
+    },
+    "male_2736.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2736.wav",
+        "label": 0
+    },
+    "male_2740.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2740.wav",
+        "label": 0
+    },
+    "male_2747.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2747.wav",
+        "label": 0
+    },
+    "male_2750.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2750.wav",
+        "label": 0
+    },
+    "male_2752.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2752.wav",
+        "label": 0
+    },
+    "male_2753.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2753.wav",
+        "label": 0
+    },
+    "male_2756.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2756.wav",
+        "label": 0
+    },
+    "male_276.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/276.wav",
+        "label": 0
+    },
+    "male_2766.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2766.wav",
+        "label": 0
+    },
+    "male_2769.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2769.wav",
+        "label": 0
+    },
+    "male_277.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/277.wav",
+        "label": 0
+    },
+    "male_2779.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2779.wav",
+        "label": 0
+    },
+    "male_2787.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2787.wav",
+        "label": 0
+    },
+    "male_2788.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2788.wav",
+        "label": 0
+    },
+    "male_2789.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2789.wav",
+        "label": 0
+    },
+    "male_2802.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2802.wav",
+        "label": 0
+    },
+    "male_2809.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2809.wav",
+        "label": 0
+    },
+    "male_2817.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2817.wav",
+        "label": 0
+    },
+    "male_2828.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2828.wav",
+        "label": 0
+    },
+    "male_2830.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2830.wav",
+        "label": 0
+    },
+    "male_2832.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2832.wav",
+        "label": 0
+    },
+    "male_2836.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2836.wav",
+        "label": 0
+    },
+    "male_284.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/284.wav",
+        "label": 0
+    },
+    "male_2846.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2846.wav",
+        "label": 0
+    },
+    "male_2851.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2851.wav",
+        "label": 0
+    },
+    "male_286.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/286.wav",
+        "label": 0
+    },
+    "male_2871.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2871.wav",
+        "label": 0
+    },
+    "male_2873.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2873.wav",
+        "label": 0
+    },
+    "male_2877.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2877.wav",
+        "label": 0
+    },
+    "male_2891.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2891.wav",
+        "label": 0
+    },
+    "male_2893.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2893.wav",
+        "label": 0
+    },
+    "male_29.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/29.wav",
+        "label": 0
+    },
+    "male_2905.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2905.wav",
+        "label": 0
+    },
+    "male_2917.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2917.wav",
+        "label": 0
+    },
+    "male_2918.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2918.wav",
+        "label": 0
+    },
+    "male_2924.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2924.wav",
+        "label": 0
+    },
+    "male_2928.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2928.wav",
+        "label": 0
+    },
+    "male_2929.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2929.wav",
+        "label": 0
+    },
+    "male_2936.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2936.wav",
+        "label": 0
+    },
+    "male_2941.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2941.wav",
+        "label": 0
+    },
+    "male_295.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/295.wav",
+        "label": 0
+    },
+    "male_2957.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2957.wav",
+        "label": 0
+    },
+    "male_2969.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2969.wav",
+        "label": 0
+    },
+    "male_297.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/297.wav",
+        "label": 0
+    },
+    "male_2972.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2972.wav",
+        "label": 0
+    },
+    "male_2974.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2974.wav",
+        "label": 0
+    },
+    "male_2981.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2981.wav",
+        "label": 0
+    },
+    "male_2985.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2985.wav",
+        "label": 0
+    },
+    "male_2986.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2986.wav",
+        "label": 0
+    },
+    "male_2988.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2988.wav",
+        "label": 0
+    },
+    "male_2993.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2993.wav",
+        "label": 0
+    },
+    "male_3008.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3008.wav",
+        "label": 0
+    },
+    "male_3012.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3012.wav",
+        "label": 0
+    },
+    "male_3014.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3014.wav",
+        "label": 0
+    },
+    "male_3018.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3018.wav",
+        "label": 0
+    },
+    "male_3025.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3025.wav",
+        "label": 0
+    },
+    "male_3035.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3035.wav",
+        "label": 0
+    },
+    "male_3038.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3038.wav",
+        "label": 0
+    },
+    "male_3044.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3044.wav",
+        "label": 0
+    },
+    "male_305.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/305.wav",
+        "label": 0
+    },
+    "male_3050.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3050.wav",
+        "label": 0
+    },
+    "male_3054.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3054.wav",
+        "label": 0
+    },
+    "male_3059.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3059.wav",
+        "label": 0
+    },
+    "male_3064.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3064.wav",
+        "label": 0
+    },
+    "male_3066.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3066.wav",
+        "label": 0
+    },
+    "male_3068.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3068.wav",
+        "label": 0
+    },
+    "male_2761.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2761.wav",
+        "label": 0
+    },
+    "male_2816.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/2816.wav",
+        "label": 0
+    },
+    "male_3079.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3079.wav",
+        "label": 0
+    },
+    "male_3082.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3082.wav",
+        "label": 0
+    },
+    "male_3083.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3083.wav",
+        "label": 0
+    },
+    "male_3086.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3086.wav",
+        "label": 0
+    },
+    "male_3098.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3098.wav",
+        "label": 0
+    },
+    "male_3105.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3105.wav",
+        "label": 0
+    },
+    "male_3114.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3114.wav",
+        "label": 0
+    },
+    "male_3117.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3117.wav",
+        "label": 0
+    },
+    "male_3129.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3129.wav",
+        "label": 0
+    },
+    "male_3136.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3136.wav",
+        "label": 0
+    },
+    "male_3138.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3138.wav",
+        "label": 0
+    },
+    "male_3139.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3139.wav",
+        "label": 0
+    },
+    "male_3140.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3140.wav",
+        "label": 0
+    },
+    "male_315.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/315.wav",
+        "label": 0
+    },
+    "male_3150.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3150.wav",
+        "label": 0
+    },
+    "male_3164.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3164.wav",
+        "label": 0
+    },
+    "male_3175.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3175.wav",
+        "label": 0
+    },
+    "male_3178.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3178.wav",
+        "label": 0
+    },
+    "male_3180.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3180.wav",
+        "label": 0
+    },
+    "male_3185.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3185.wav",
+        "label": 0
+    },
+    "male_3193.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3193.wav",
+        "label": 0
+    },
+    "male_3199.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3199.wav",
+        "label": 0
+    },
+    "male_320.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/320.wav",
+        "label": 0
+    },
+    "male_3202.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3202.wav",
+        "label": 0
+    },
+    "male_3208.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3208.wav",
+        "label": 0
+    },
+    "male_3221.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3221.wav",
+        "label": 0
+    },
+    "male_3225.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3225.wav",
+        "label": 0
+    },
+    "male_3226.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3226.wav",
+        "label": 0
+    },
+    "male_323.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/323.wav",
+        "label": 0
+    },
+    "male_3232.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3232.wav",
+        "label": 0
+    },
+    "male_3236.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3236.wav",
+        "label": 0
+    },
+    "male_3241.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3241.wav",
+        "label": 0
+    },
+    "male_3244.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3244.wav",
+        "label": 0
+    },
+    "male_3247.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3247.wav",
+        "label": 0
+    },
+    "male_3263.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3263.wav",
+        "label": 0
+    },
+    "male_3269.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3269.wav",
+        "label": 0
+    },
+    "male_3273.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3273.wav",
+        "label": 0
+    },
+    "male_3288.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3288.wav",
+        "label": 0
+    },
+    "male_3290.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3290.wav",
+        "label": 0
+    },
+    "male_3291.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3291.wav",
+        "label": 0
+    },
+    "male_3295.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3295.wav",
+        "label": 0
+    },
+    "male_3297.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3297.wav",
+        "label": 0
+    },
+    "male_330.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/330.wav",
+        "label": 0
+    },
+    "male_3305.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3305.wav",
+        "label": 0
+    },
+    "male_3308.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3308.wav",
+        "label": 0
+    },
+    "male_3312.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3312.wav",
+        "label": 0
+    },
+    "male_3319.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3319.wav",
+        "label": 0
+    },
+    "male_332.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/332.wav",
+        "label": 0
+    },
+    "male_3326.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3326.wav",
+        "label": 0
+    },
+    "male_3329.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3329.wav",
+        "label": 0
+    },
+    "male_3331.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3331.wav",
+        "label": 0
+    },
+    "male_3340.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3340.wav",
+        "label": 0
+    },
+    "male_3341.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3341.wav",
+        "label": 0
+    },
+    "male_3346.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3346.wav",
+        "label": 0
+    },
+    "male_3347.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3347.wav",
+        "label": 0
+    },
+    "male_3351.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3351.wav",
+        "label": 0
+    },
+    "male_336.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/336.wav",
+        "label": 0
+    },
+    "male_3368.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3368.wav",
+        "label": 0
+    },
+    "male_3369.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3369.wav",
+        "label": 0
+    },
+    "male_3376.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3376.wav",
+        "label": 0
+    },
+    "male_3387.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3387.wav",
+        "label": 0
+    },
+    "male_3390.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3390.wav",
+        "label": 0
+    },
+    "male_3399.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3399.wav",
+        "label": 0
+    },
+    "male_3400.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3400.wav",
+        "label": 0
+    },
+    "male_3401.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3401.wav",
+        "label": 0
+    },
+    "male_3403.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3403.wav",
+        "label": 0
+    },
+    "male_3413.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3413.wav",
+        "label": 0
+    },
+    "male_3161.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3161.wav",
+        "label": 0
+    },
+    "male_3289.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3289.wav",
+        "label": 0
+    },
+    "male_338.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/338.wav",
+        "label": 0
+    },
+    "male_3398.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3398.wav",
+        "label": 0
+    },
+    "male_3421.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3421.wav",
+        "label": 0
+    },
+    "male_3432.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3432.wav",
+        "label": 0
+    },
+    "male_344.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/344.wav",
+        "label": 0
+    },
+    "male_3448.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3448.wav",
+        "label": 0
+    },
+    "male_3451.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3451.wav",
+        "label": 0
+    },
+    "male_3455.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3455.wav",
+        "label": 0
+    },
+    "male_3460.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3460.wav",
+        "label": 0
+    },
+    "male_3468.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3468.wav",
+        "label": 0
+    },
+    "male_3472.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3472.wav",
+        "label": 0
+    },
+    "male_3487.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3487.wav",
+        "label": 0
+    },
+    "male_3495.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3495.wav",
+        "label": 0
+    },
+    "male_3497.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3497.wav",
+        "label": 0
+    },
+    "male_3504.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3504.wav",
+        "label": 0
+    },
+    "male_3510.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3510.wav",
+        "label": 0
+    },
+    "male_3512.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3512.wav",
+        "label": 0
+    },
+    "male_3518.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3518.wav",
+        "label": 0
+    },
+    "male_3538.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3538.wav",
+        "label": 0
+    },
+    "male_3539.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3539.wav",
+        "label": 0
+    },
+    "male_3544.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3544.wav",
+        "label": 0
+    },
+    "male_3546.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3546.wav",
+        "label": 0
+    },
+    "male_3551.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3551.wav",
+        "label": 0
+    },
+    "male_3552.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3552.wav",
+        "label": 0
+    },
+    "male_3557.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3557.wav",
+        "label": 0
+    },
+    "male_356.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/356.wav",
+        "label": 0
+    },
+    "male_3562.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3562.wav",
+        "label": 0
+    },
+    "male_3565.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3565.wav",
+        "label": 0
+    },
+    "male_3566.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3566.wav",
+        "label": 0
+    },
+    "male_3568.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3568.wav",
+        "label": 0
+    },
+    "male_3586.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3586.wav",
+        "label": 0
+    },
+    "male_3588.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3588.wav",
+        "label": 0
+    },
+    "male_359.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/359.wav",
+        "label": 0
+    },
+    "male_3601.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3601.wav",
+        "label": 0
+    },
+    "male_3603.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3603.wav",
+        "label": 0
+    },
+    "male_361.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/361.wav",
+        "label": 0
+    },
+    "male_3610.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3610.wav",
+        "label": 0
+    },
+    "male_3614.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3614.wav",
+        "label": 0
+    },
+    "male_3615.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3615.wav",
+        "label": 0
+    },
+    "male_3635.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3635.wav",
+        "label": 0
+    },
+    "male_3638.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3638.wav",
+        "label": 0
+    },
+    "male_3650.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3650.wav",
+        "label": 0
+    },
+    "male_3664.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3664.wav",
+        "label": 0
+    },
+    "male_3665.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3665.wav",
+        "label": 0
+    },
+    "male_3673.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3673.wav",
+        "label": 0
+    },
+    "male_371.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/371.wav",
+        "label": 0
+    },
+    "male_373.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/373.wav",
+        "label": 0
+    },
+    "male_377.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/377.wav",
+        "label": 0
+    },
+    "male_379.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/379.wav",
+        "label": 0
+    },
+    "male_381.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/381.wav",
+        "label": 0
+    },
+    "male_384.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/384.wav",
+        "label": 0
+    },
+    "male_385.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/385.wav",
+        "label": 0
+    },
+    "male_396.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/396.wav",
+        "label": 0
+    },
+    "male_401.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/401.wav",
+        "label": 0
+    },
+    "male_402.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/402.wav",
+        "label": 0
+    },
+    "male_411.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/411.wav",
+        "label": 0
+    },
+    "male_416.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/416.wav",
+        "label": 0
+    },
+    "male_419.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/419.wav",
+        "label": 0
+    },
+    "male_421.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/421.wav",
+        "label": 0
+    },
+    "male_422.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/422.wav",
+        "label": 0
+    },
+    "male_423.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/423.wav",
+        "label": 0
+    },
+    "male_429.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/429.wav",
+        "label": 0
+    },
+    "male_438.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/438.wav",
+        "label": 0
+    },
+    "male_439.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/439.wav",
+        "label": 0
+    },
+    "male_448.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/448.wav",
+        "label": 0
+    },
+    "male_3452.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3452.wav",
+        "label": 0
+    },
+    "male_3616.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/3616.wav",
+        "label": 0
+    },
+    "male_433.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/433.wav",
+        "label": 0
+    },
+    "male_461.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/461.wav",
+        "label": 0
+    },
+    "male_464.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/464.wav",
+        "label": 0
+    },
+    "male_478.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/478.wav",
+        "label": 0
+    },
+    "male_48.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/48.wav",
+        "label": 0
+    },
+    "male_483.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/483.wav",
+        "label": 0
+    },
+    "male_485.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/485.wav",
+        "label": 0
+    },
+    "male_488.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/488.wav",
+        "label": 0
+    },
+    "male_489.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/489.wav",
+        "label": 0
+    },
+    "male_496.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/496.wav",
+        "label": 0
+    },
+    "male_498.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/498.wav",
+        "label": 0
+    },
+    "male_501.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/501.wav",
+        "label": 0
+    },
+    "male_504.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/504.wav",
+        "label": 0
+    },
+    "male_512.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/512.wav",
+        "label": 0
+    },
+    "male_517.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/517.wav",
+        "label": 0
+    },
+    "male_520.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/520.wav",
+        "label": 0
+    },
+    "male_521.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/521.wav",
+        "label": 0
+    },
+    "male_53.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/53.wav",
+        "label": 0
+    },
+    "male_534.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/534.wav",
+        "label": 0
+    },
+    "male_538.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/538.wav",
+        "label": 0
+    },
+    "male_547.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/547.wav",
+        "label": 0
+    },
+    "male_549.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/549.wav",
+        "label": 0
+    },
+    "male_550.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/550.wav",
+        "label": 0
+    },
+    "male_551.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/551.wav",
+        "label": 0
+    },
+    "male_560.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/560.wav",
+        "label": 0
+    },
+    "male_566.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/566.wav",
+        "label": 0
+    },
+    "male_568.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/568.wav",
+        "label": 0
+    },
+    "male_569.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/569.wav",
+        "label": 0
+    },
+    "male_571.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/571.wav",
+        "label": 0
+    },
+    "male_572.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/572.wav",
+        "label": 0
+    },
+    "male_575.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/575.wav",
+        "label": 0
+    },
+    "male_576.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/576.wav",
+        "label": 0
+    },
+    "male_587.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/587.wav",
+        "label": 0
+    },
+    "male_598.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/598.wav",
+        "label": 0
+    },
+    "male_613.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/613.wav",
+        "label": 0
+    },
+    "male_619.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/619.wav",
+        "label": 0
+    },
+    "male_626.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/626.wav",
+        "label": 0
+    },
+    "male_629.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/629.wav",
+        "label": 0
+    },
+    "male_630.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/630.wav",
+        "label": 0
+    },
+    "male_631.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/631.wav",
+        "label": 0
+    },
+    "male_636.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/636.wav",
+        "label": 0
+    },
+    "male_650.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/650.wav",
+        "label": 0
+    },
+    "male_651.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/651.wav",
+        "label": 0
+    },
+    "male_652.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/652.wav",
+        "label": 0
+    },
+    "male_656.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/656.wav",
+        "label": 0
+    },
+    "male_67.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/67.wav",
+        "label": 0
+    },
+    "male_676.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/676.wav",
+        "label": 0
+    },
+    "male_682.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/682.wav",
+        "label": 0
+    },
+    "male_7.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/7.wav",
+        "label": 0
+    },
+    "male_705.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/705.wav",
+        "label": 0
+    },
+    "male_709.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/709.wav",
+        "label": 0
+    },
+    "male_712.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/712.wav",
+        "label": 0
+    },
+    "male_720.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/720.wav",
+        "label": 0
+    },
+    "male_723.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/723.wav",
+        "label": 0
+    },
+    "male_726.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/726.wav",
+        "label": 0
+    },
+    "male_736.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/736.wav",
+        "label": 0
+    },
+    "male_743.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/743.wav",
+        "label": 0
+    },
+    "male_746.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/746.wav",
+        "label": 0
+    },
+    "male_754.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/754.wav",
+        "label": 0
+    },
+    "male_762.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/762.wav",
+        "label": 0
+    },
+    "male_770.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/770.wav",
+        "label": 0
+    },
+    "male_781.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/781.wav",
+        "label": 0
+    },
+    "male_787.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/787.wav",
+        "label": 0
+    },
+    "male_790.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/790.wav",
+        "label": 0
+    },
+    "male_791.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/791.wav",
+        "label": 0
+    },
+    "male_792.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/792.wav",
+        "label": 0
+    },
+    "male_794.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/794.wav",
+        "label": 0
+    },
+    "male_798.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/798.wav",
+        "label": 0
+    },
+    "male_799.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/799.wav",
+        "label": 0
+    },
+    "male_804.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/804.wav",
+        "label": 0
+    },
+    "male_805.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/805.wav",
+        "label": 0
+    },
+    "male_811.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/811.wav",
+        "label": 0
+    },
+    "male_826.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/826.wav",
+        "label": 0
+    },
+    "male_829.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/829.wav",
+        "label": 0
+    },
+    "male_51.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/51.wav",
+        "label": 0
+    },
+    "male_529.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/529.wav",
+        "label": 0
+    },
+    "male_548.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/548.wav",
+        "label": 0
+    },
+    "male_567.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/567.wav",
+        "label": 0
+    },
+    "male_643.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/643.wav",
+        "label": 0
+    },
+    "male_681.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/681.wav",
+        "label": 0
+    },
+    "male_872.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/872.wav",
+        "label": 0
+    },
+    "male_910.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/910.wav",
+        "label": 0
+    },
+    "male_842.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/842.wav",
+        "label": 0
+    },
+    "male_843.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/843.wav",
+        "label": 0
+    },
+    "male_848.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/848.wav",
+        "label": 0
+    },
+    "male_85.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/85.wav",
+        "label": 0
+    },
+    "male_858.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/858.wav",
+        "label": 0
+    },
+    "male_861.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/861.wav",
+        "label": 0
+    },
+    "male_866.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/866.wav",
+        "label": 0
+    },
+    "male_869.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/869.wav",
+        "label": 0
+    },
+    "male_876.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/876.wav",
+        "label": 0
+    },
+    "male_879.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/879.wav",
+        "label": 0
+    },
+    "male_883.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/883.wav",
+        "label": 0
+    },
+    "male_887.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/887.wav",
+        "label": 0
+    },
+    "male_893.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/893.wav",
+        "label": 0
+    },
+    "male_897.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/897.wav",
+        "label": 0
+    },
+    "male_902.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/902.wav",
+        "label": 0
+    },
+    "male_907.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/907.wav",
+        "label": 0
+    },
+    "male_908.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/908.wav",
+        "label": 0
+    },
+    "male_917.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/917.wav",
+        "label": 0
+    },
+    "male_92.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/92.wav",
+        "label": 0
+    },
+    "male_920.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/920.wav",
+        "label": 0
+    },
+    "male_928.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/928.wav",
+        "label": 0
+    },
+    "male_940.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/940.wav",
+        "label": 0
+    },
+    "male_945.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/945.wav",
+        "label": 0
+    },
+    "male_947.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/947.wav",
+        "label": 0
+    },
+    "male_971.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/971.wav",
+        "label": 0
+    },
+    "male_977.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/977.wav",
+        "label": 0
+    },
+    "male_986.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/986.wav",
+        "label": 0
+    },
+    "male_989.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/989.wav",
+        "label": 0
+    },
+    "male_996.wav": {
+        "sampledir": "./VoxCeleb_gender/males_wav/996.wav",
+        "label": 0
+    },
+    "female_1003.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1003.wav",
+        "label": 1
+    },
+    "female_1005.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1005.wav",
+        "label": 1
+    },
+    "female_1006.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1006.wav",
+        "label": 1
+    },
+    "female_101.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/101.wav",
+        "label": 1
+    },
+    "female_1014.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1014.wav",
+        "label": 1
+    },
+    "female_103.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/103.wav",
+        "label": 1
+    },
+    "female_1035.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1035.wav",
+        "label": 1
+    },
+    "female_1038.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1038.wav",
+        "label": 1
+    },
+    "female_1040.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1040.wav",
+        "label": 1
+    },
+    "female_1042.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1042.wav",
+        "label": 1
+    },
+    "female_1048.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1048.wav",
+        "label": 1
+    },
+    "female_106.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/106.wav",
+        "label": 1
+    },
+    "female_1061.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1061.wav",
+        "label": 1
+    },
+    "female_1071.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1071.wav",
+        "label": 1
+    },
+    "female_1077.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1077.wav",
+        "label": 1
+    },
+    "female_1084.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1084.wav",
+        "label": 1
+    },
+    "female_1086.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1086.wav",
+        "label": 1
+    },
+    "female_1088.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1088.wav",
+        "label": 1
+    },
+    "female_1052.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1052.wav",
+        "label": 1
+    },
+    "female_1125.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1125.wav",
+        "label": 1
+    },
+    "female_1161.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1161.wav",
+        "label": 1
+    },
+    "female_1252.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1252.wav",
+        "label": 1
+    },
+    "female_1096.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1096.wav",
+        "label": 1
+    },
+    "female_110.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/110.wav",
+        "label": 1
+    },
+    "female_1102.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1102.wav",
+        "label": 1
+    },
+    "female_1104.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1104.wav",
+        "label": 1
+    },
+    "female_1105.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1105.wav",
+        "label": 1
+    },
+    "female_1109.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1109.wav",
+        "label": 1
+    },
+    "female_1111.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1111.wav",
+        "label": 1
+    },
+    "female_1116.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1116.wav",
+        "label": 1
+    },
+    "female_1120.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1120.wav",
+        "label": 1
+    },
+    "female_1124.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1124.wav",
+        "label": 1
+    },
+    "female_1139.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1139.wav",
+        "label": 1
+    },
+    "female_114.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/114.wav",
+        "label": 1
+    },
+    "female_1142.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1142.wav",
+        "label": 1
+    },
+    "female_1144.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1144.wav",
+        "label": 1
+    },
+    "female_1147.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1147.wav",
+        "label": 1
+    },
+    "female_115.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/115.wav",
+        "label": 1
+    },
+    "female_1151.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1151.wav",
+        "label": 1
+    },
+    "female_1152.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1152.wav",
+        "label": 1
+    },
+    "female_1156.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1156.wav",
+        "label": 1
+    },
+    "female_1157.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1157.wav",
+        "label": 1
+    },
+    "female_1177.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1177.wav",
+        "label": 1
+    },
+    "female_1183.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1183.wav",
+        "label": 1
+    },
+    "female_1185.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1185.wav",
+        "label": 1
+    },
+    "female_1189.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1189.wav",
+        "label": 1
+    },
+    "female_1195.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1195.wav",
+        "label": 1
+    },
+    "female_120.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/120.wav",
+        "label": 1
+    },
+    "female_1203.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1203.wav",
+        "label": 1
+    },
+    "female_1205.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1205.wav",
+        "label": 1
+    },
+    "female_1207.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1207.wav",
+        "label": 1
+    },
+    "female_1212.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1212.wav",
+        "label": 1
+    },
+    "female_1218.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1218.wav",
+        "label": 1
+    },
+    "female_1227.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1227.wav",
+        "label": 1
+    },
+    "female_1232.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1232.wav",
+        "label": 1
+    },
+    "female_1243.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1243.wav",
+        "label": 1
+    },
+    "female_1257.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1257.wav",
+        "label": 1
+    },
+    "female_1261.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1261.wav",
+        "label": 1
+    },
+    "female_1262.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1262.wav",
+        "label": 1
+    },
+    "female_1273.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1273.wav",
+        "label": 1
+    },
+    "female_1275.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1275.wav",
+        "label": 1
+    },
+    "female_128.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/128.wav",
+        "label": 1
+    },
+    "female_1283.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1283.wav",
+        "label": 1
+    },
+    "female_1292.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1292.wav",
+        "label": 1
+    },
+    "female_1295.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1295.wav",
+        "label": 1
+    },
+    "female_1296.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1296.wav",
+        "label": 1
+    },
+    "female_1297.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1297.wav",
+        "label": 1
+    },
+    "female_13.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/13.wav",
+        "label": 1
+    },
+    "female_1308.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1308.wav",
+        "label": 1
+    },
+    "female_1311.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1311.wav",
+        "label": 1
+    },
+    "female_1332.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1332.wav",
+        "label": 1
+    },
+    "female_1337.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1337.wav",
+        "label": 1
+    },
+    "female_1339.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1339.wav",
+        "label": 1
+    },
+    "female_1340.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1340.wav",
+        "label": 1
+    },
+    "female_1368.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1368.wav",
+        "label": 1
+    },
+    "female_1369.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1369.wav",
+        "label": 1
+    },
+    "female_1377.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1377.wav",
+        "label": 1
+    },
+    "female_1378.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1378.wav",
+        "label": 1
+    },
+    "female_1380.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1380.wav",
+        "label": 1
+    },
+    "female_1384.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1384.wav",
+        "label": 1
+    },
+    "female_1385.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1385.wav",
+        "label": 1
+    },
+    "female_1400.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1400.wav",
+        "label": 1
+    },
+    "female_1401.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1401.wav",
+        "label": 1
+    },
+    "female_1402.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1402.wav",
+        "label": 1
+    },
+    "female_1404.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1404.wav",
+        "label": 1
+    },
+    "female_1405.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1405.wav",
+        "label": 1
+    },
+    "female_1410.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1410.wav",
+        "label": 1
+    },
+    "female_1414.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1414.wav",
+        "label": 1
+    },
+    "female_1423.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1423.wav",
+        "label": 1
+    },
+    "female_1429.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1429.wav",
+        "label": 1
+    },
+    "female_1431.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1431.wav",
+        "label": 1
+    },
+    "female_1444.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1444.wav",
+        "label": 1
+    },
+    "female_145.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/145.wav",
+        "label": 1
+    },
+    "female_1451.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1451.wav",
+        "label": 1
+    },
+    "female_1465.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1465.wav",
+        "label": 1
+    },
+    "female_1484.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1484.wav",
+        "label": 1
+    },
+    "female_1488.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1488.wav",
+        "label": 1
+    },
+    "female_1496.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1496.wav",
+        "label": 1
+    },
+    "female_1497.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1497.wav",
+        "label": 1
+    },
+    "female_1501.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1501.wav",
+        "label": 1
+    },
+    "female_1503.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1503.wav",
+        "label": 1
+    },
+    "female_1505.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1505.wav",
+        "label": 1
+    },
+    "female_1508.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1508.wav",
+        "label": 1
+    },
+    "female_152.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/152.wav",
+        "label": 1
+    },
+    "female_1521.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1521.wav",
+        "label": 1
+    },
+    "female_1527.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1527.wav",
+        "label": 1
+    },
+    "female_1548.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1548.wav",
+        "label": 1
+    },
+    "female_1552.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1552.wav",
+        "label": 1
+    },
+    "female_1558.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1558.wav",
+        "label": 1
+    },
+    "female_1562.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1562.wav",
+        "label": 1
+    },
+    "female_1574.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1574.wav",
+        "label": 1
+    },
+    "female_1577.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1577.wav",
+        "label": 1
+    },
+    "female_1582.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1582.wav",
+        "label": 1
+    },
+    "female_1591.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1591.wav",
+        "label": 1
+    },
+    "female_1593.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1593.wav",
+        "label": 1
+    },
+    "female_1601.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1601.wav",
+        "label": 1
+    },
+    "female_1605.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1605.wav",
+        "label": 1
+    },
+    "female_1607.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1607.wav",
+        "label": 1
+    },
+    "female_1610.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1610.wav",
+        "label": 1
+    },
+    "female_162.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/162.wav",
+        "label": 1
+    },
+    "female_1621.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1621.wav",
+        "label": 1
+    },
+    "female_1624.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1624.wav",
+        "label": 1
+    },
+    "female_1625.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1625.wav",
+        "label": 1
+    },
+    "female_1636.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1636.wav",
+        "label": 1
+    },
+    "female_1637.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1637.wav",
+        "label": 1
+    },
+    "female_164.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/164.wav",
+        "label": 1
+    },
+    "female_1645.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1645.wav",
+        "label": 1
+    },
+    "female_1663.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1663.wav",
+        "label": 1
+    },
+    "female_168.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/168.wav",
+        "label": 1
+    },
+    "female_1686.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1686.wav",
+        "label": 1
+    },
+    "female_1434.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1434.wav",
+        "label": 1
+    },
+    "female_1470.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1470.wav",
+        "label": 1
+    },
+    "female_158.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/158.wav",
+        "label": 1
+    },
+    "female_1691.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1691.wav",
+        "label": 1
+    },
+    "female_1698.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1698.wav",
+        "label": 1
+    },
+    "female_1702.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1702.wav",
+        "label": 1
+    },
+    "female_1703.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1703.wav",
+        "label": 1
+    },
+    "female_1717.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1717.wav",
+        "label": 1
+    },
+    "female_1718.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1718.wav",
+        "label": 1
+    },
+    "female_1727.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1727.wav",
+        "label": 1
+    },
+    "female_1729.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1729.wav",
+        "label": 1
+    },
+    "female_1730.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1730.wav",
+        "label": 1
+    },
+    "female_1732.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1732.wav",
+        "label": 1
+    },
+    "female_1733.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1733.wav",
+        "label": 1
+    },
+    "female_1734.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1734.wav",
+        "label": 1
+    },
+    "female_1735.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1735.wav",
+        "label": 1
+    },
+    "female_174.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/174.wav",
+        "label": 1
+    },
+    "female_1740.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1740.wav",
+        "label": 1
+    },
+    "female_1761.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1761.wav",
+        "label": 1
+    },
+    "female_1767.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1767.wav",
+        "label": 1
+    },
+    "female_1772.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1772.wav",
+        "label": 1
+    },
+    "female_1781.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1781.wav",
+        "label": 1
+    },
+    "female_1784.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1784.wav",
+        "label": 1
+    },
+    "female_1791.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1791.wav",
+        "label": 1
+    },
+    "female_1795.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1795.wav",
+        "label": 1
+    },
+    "female_18.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/18.wav",
+        "label": 1
+    },
+    "female_1811.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1811.wav",
+        "label": 1
+    },
+    "female_1813.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1813.wav",
+        "label": 1
+    },
+    "female_1823.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1823.wav",
+        "label": 1
+    },
+    "female_1830.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1830.wav",
+        "label": 1
+    },
+    "female_1846.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1846.wav",
+        "label": 1
+    },
+    "female_1847.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1847.wav",
+        "label": 1
+    },
+    "female_185.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/185.wav",
+        "label": 1
+    },
+    "female_1851.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1851.wav",
+        "label": 1
+    },
+    "female_1858.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1858.wav",
+        "label": 1
+    },
+    "female_1861.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1861.wav",
+        "label": 1
+    },
+    "female_1863.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1863.wav",
+        "label": 1
+    },
+    "female_1867.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1867.wav",
+        "label": 1
+    },
+    "female_1875.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1875.wav",
+        "label": 1
+    },
+    "female_1888.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1888.wav",
+        "label": 1
+    },
+    "female_1890.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1890.wav",
+        "label": 1
+    },
+    "female_1894.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1894.wav",
+        "label": 1
+    },
+    "female_1897.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1897.wav",
+        "label": 1
+    },
+    "female_1899.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1899.wav",
+        "label": 1
+    },
+    "female_19.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/19.wav",
+        "label": 1
+    },
+    "female_190.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/190.wav",
+        "label": 1
+    },
+    "female_1903.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1903.wav",
+        "label": 1
+    },
+    "female_1909.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1909.wav",
+        "label": 1
+    },
+    "female_1911.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1911.wav",
+        "label": 1
+    },
+    "female_1915.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1915.wav",
+        "label": 1
+    },
+    "female_1921.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1921.wav",
+        "label": 1
+    },
+    "female_1923.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1923.wav",
+        "label": 1
+    },
+    "female_1924.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1924.wav",
+        "label": 1
+    },
+    "female_1934.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1934.wav",
+        "label": 1
+    },
+    "female_1939.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1939.wav",
+        "label": 1
+    },
+    "female_1947.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1947.wav",
+        "label": 1
+    },
+    "female_1950.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1950.wav",
+        "label": 1
+    },
+    "female_1955.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1955.wav",
+        "label": 1
+    },
+    "female_1968.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1968.wav",
+        "label": 1
+    },
+    "female_198.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/198.wav",
+        "label": 1
+    },
+    "female_1987.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1987.wav",
+        "label": 1
+    },
+    "female_2004.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2004.wav",
+        "label": 1
+    },
+    "female_2008.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2008.wav",
+        "label": 1
+    },
+    "female_2018.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2018.wav",
+        "label": 1
+    },
+    "female_2031.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2031.wav",
+        "label": 1
+    },
+    "female_1799.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1799.wav",
+        "label": 1
+    },
+    "female_1980.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/1980.wav",
+        "label": 1
+    },
+    "female_2040.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2040.wav",
+        "label": 1
+    },
+    "female_2063.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2063.wav",
+        "label": 1
+    },
+    "female_2067.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2067.wav",
+        "label": 1
+    },
+    "female_2084.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2084.wav",
+        "label": 1
+    },
+    "female_2089.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2089.wav",
+        "label": 1
+    },
+    "female_2099.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2099.wav",
+        "label": 1
+    },
+    "female_2107.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2107.wav",
+        "label": 1
+    },
+    "female_2112.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2112.wav",
+        "label": 1
+    },
+    "female_2115.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2115.wav",
+        "label": 1
+    },
+    "female_212.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/212.wav",
+        "label": 1
+    },
+    "female_2120.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2120.wav",
+        "label": 1
+    },
+    "female_2121.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2121.wav",
+        "label": 1
+    },
+    "female_2128.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2128.wav",
+        "label": 1
+    },
+    "female_2136.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2136.wav",
+        "label": 1
+    },
+    "female_2148.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2148.wav",
+        "label": 1
+    },
+    "female_2154.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2154.wav",
+        "label": 1
+    },
+    "female_2182.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2182.wav",
+        "label": 1
+    },
+    "female_2183.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2183.wav",
+        "label": 1
+    },
+    "female_2190.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2190.wav",
+        "label": 1
+    },
+    "female_2196.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2196.wav",
+        "label": 1
+    },
+    "female_2205.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2205.wav",
+        "label": 1
+    },
+    "female_2219.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2219.wav",
+        "label": 1
+    },
+    "female_2230.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2230.wav",
+        "label": 1
+    },
+    "female_2232.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2232.wav",
+        "label": 1
+    },
+    "female_2234.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2234.wav",
+        "label": 1
+    },
+    "female_2241.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2241.wav",
+        "label": 1
+    },
+    "female_2244.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2244.wav",
+        "label": 1
+    },
+    "female_2247.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2247.wav",
+        "label": 1
+    },
+    "female_2248.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2248.wav",
+        "label": 1
+    },
+    "female_2258.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2258.wav",
+        "label": 1
+    },
+    "female_2272.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2272.wav",
+        "label": 1
+    },
+    "female_2274.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2274.wav",
+        "label": 1
+    },
+    "female_2279.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2279.wav",
+        "label": 1
+    },
+    "female_2283.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2283.wav",
+        "label": 1
+    },
+    "female_2293.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2293.wav",
+        "label": 1
+    },
+    "female_2296.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2296.wav",
+        "label": 1
+    },
+    "female_2297.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2297.wav",
+        "label": 1
+    },
+    "female_23.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/23.wav",
+        "label": 1
+    },
+    "female_2303.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2303.wav",
+        "label": 1
+    },
+    "female_2305.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2305.wav",
+        "label": 1
+    },
+    "female_231.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/231.wav",
+        "label": 1
+    },
+    "female_233.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/233.wav",
+        "label": 1
+    },
+    "female_234.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/234.wav",
+        "label": 1
+    },
+    "female_236.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/236.wav",
+        "label": 1
+    },
+    "female_245.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/245.wav",
+        "label": 1
+    },
+    "female_25.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/25.wav",
+        "label": 1
+    },
+    "female_250.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/250.wav",
+        "label": 1
+    },
+    "female_259.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/259.wav",
+        "label": 1
+    },
+    "female_26.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/26.wav",
+        "label": 1
+    },
+    "female_27.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/27.wav",
+        "label": 1
+    },
+    "female_271.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/271.wav",
+        "label": 1
+    },
+    "female_272.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/272.wav",
+        "label": 1
+    },
+    "female_288.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/288.wav",
+        "label": 1
+    },
+    "female_290.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/290.wav",
+        "label": 1
+    },
+    "female_2271.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/2271.wav",
+        "label": 1
+    },
+    "female_266.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/266.wav",
+        "label": 1
+    },
+    "female_285.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/285.wav",
+        "label": 1
+    },
+    "female_310.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/310.wav",
+        "label": 1
+    },
+    "female_320.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/320.wav",
+        "label": 1
+    },
+    "female_324.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/324.wav",
+        "label": 1
+    },
+    "female_326.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/326.wav",
+        "label": 1
+    },
+    "female_331.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/331.wav",
+        "label": 1
+    },
+    "female_332.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/332.wav",
+        "label": 1
+    },
+    "female_338.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/338.wav",
+        "label": 1
+    },
+    "female_344.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/344.wav",
+        "label": 1
+    },
+    "female_346.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/346.wav",
+        "label": 1
+    },
+    "female_362.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/362.wav",
+        "label": 1
+    },
+    "female_370.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/370.wav",
+        "label": 1
+    },
+    "female_383.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/383.wav",
+        "label": 1
+    },
+    "female_387.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/387.wav",
+        "label": 1
+    },
+    "female_409.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/409.wav",
+        "label": 1
+    },
+    "female_41.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/41.wav",
+        "label": 1
+    },
+    "female_410.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/410.wav",
+        "label": 1
+    },
+    "female_418.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/418.wav",
+        "label": 1
+    },
+    "female_420.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/420.wav",
+        "label": 1
+    },
+    "female_442.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/442.wav",
+        "label": 1
+    },
+    "female_456.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/456.wav",
+        "label": 1
+    },
+    "female_467.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/467.wav",
+        "label": 1
+    },
+    "female_474.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/474.wav",
+        "label": 1
+    },
+    "female_477.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/477.wav",
+        "label": 1
+    },
+    "female_486.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/486.wav",
+        "label": 1
+    },
+    "female_499.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/499.wav",
+        "label": 1
+    },
+    "female_500.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/500.wav",
+        "label": 1
+    },
+    "female_504.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/504.wav",
+        "label": 1
+    },
+    "female_506.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/506.wav",
+        "label": 1
+    },
+    "female_508.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/508.wav",
+        "label": 1
+    },
+    "female_51.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/51.wav",
+        "label": 1
+    },
+    "female_511.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/511.wav",
+        "label": 1
+    },
+    "female_517.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/517.wav",
+        "label": 1
+    },
+    "female_524.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/524.wav",
+        "label": 1
+    },
+    "female_535.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/535.wav",
+        "label": 1
+    },
+    "female_536.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/536.wav",
+        "label": 1
+    },
+    "female_541.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/541.wav",
+        "label": 1
+    },
+    "female_555.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/555.wav",
+        "label": 1
+    },
+    "female_561.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/561.wav",
+        "label": 1
+    },
+    "female_566.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/566.wav",
+        "label": 1
+    },
+    "female_567.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/567.wav",
+        "label": 1
+    },
+    "female_569.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/569.wav",
+        "label": 1
+    },
+    "female_57.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/57.wav",
+        "label": 1
+    },
+    "female_579.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/579.wav",
+        "label": 1
+    },
+    "female_581.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/581.wav",
+        "label": 1
+    },
+    "female_584.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/584.wav",
+        "label": 1
+    },
+    "female_588.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/588.wav",
+        "label": 1
+    },
+    "female_589.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/589.wav",
+        "label": 1
+    },
+    "female_59.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/59.wav",
+        "label": 1
+    },
+    "female_591.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/591.wav",
+        "label": 1
+    },
+    "female_6.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/6.wav",
+        "label": 1
+    },
+    "female_60.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/60.wav",
+        "label": 1
+    },
+    "female_602.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/602.wav",
+        "label": 1
+    },
+    "female_626.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/626.wav",
+        "label": 1
+    },
+    "female_635.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/635.wav",
+        "label": 1
+    },
+    "female_636.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/636.wav",
+        "label": 1
+    },
+    "female_640.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/640.wav",
+        "label": 1
+    },
+    "female_641.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/641.wav",
+        "label": 1
+    },
+    "female_65.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/65.wav",
+        "label": 1
+    },
+    "female_652.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/652.wav",
+        "label": 1
+    },
+    "female_361.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/361.wav",
+        "label": 1
+    },
+    "female_419.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/419.wav",
+        "label": 1
+    },
+    "female_629.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/629.wav",
+        "label": 1
+    },
+    "female_705.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/705.wav",
+        "label": 1
+    },
+    "female_877.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/877.wav",
+        "label": 1
+    },
+    "female_972.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/972.wav",
+        "label": 1
+    },
+    "female_693.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/693.wav",
+        "label": 1
+    },
+    "female_699.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/699.wav",
+        "label": 1
+    },
+    "female_70.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/70.wav",
+        "label": 1
+    },
+    "female_701.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/701.wav",
+        "label": 1
+    },
+    "female_710.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/710.wav",
+        "label": 1
+    },
+    "female_711.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/711.wav",
+        "label": 1
+    },
+    "female_713.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/713.wav",
+        "label": 1
+    },
+    "female_714.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/714.wav",
+        "label": 1
+    },
+    "female_728.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/728.wav",
+        "label": 1
+    },
+    "female_730.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/730.wav",
+        "label": 1
+    },
+    "female_732.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/732.wav",
+        "label": 1
+    },
+    "female_751.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/751.wav",
+        "label": 1
+    },
+    "female_754.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/754.wav",
+        "label": 1
+    },
+    "female_759.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/759.wav",
+        "label": 1
+    },
+    "female_764.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/764.wav",
+        "label": 1
+    },
+    "female_77.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/77.wav",
+        "label": 1
+    },
+    "female_774.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/774.wav",
+        "label": 1
+    },
+    "female_783.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/783.wav",
+        "label": 1
+    },
+    "female_785.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/785.wav",
+        "label": 1
+    },
+    "female_787.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/787.wav",
+        "label": 1
+    },
+    "female_79.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/79.wav",
+        "label": 1
+    },
+    "female_797.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/797.wav",
+        "label": 1
+    },
+    "female_80.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/80.wav",
+        "label": 1
+    },
+    "female_801.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/801.wav",
+        "label": 1
+    },
+    "female_810.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/810.wav",
+        "label": 1
+    },
+    "female_816.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/816.wav",
+        "label": 1
+    },
+    "female_818.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/818.wav",
+        "label": 1
+    },
+    "female_819.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/819.wav",
+        "label": 1
+    },
+    "female_821.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/821.wav",
+        "label": 1
+    },
+    "female_827.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/827.wav",
+        "label": 1
+    },
+    "female_836.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/836.wav",
+        "label": 1
+    },
+    "female_845.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/845.wav",
+        "label": 1
+    },
+    "female_847.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/847.wav",
+        "label": 1
+    },
+    "female_85.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/85.wav",
+        "label": 1
+    },
+    "female_856.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/856.wav",
+        "label": 1
+    },
+    "female_86.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/86.wav",
+        "label": 1
+    },
+    "female_864.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/864.wav",
+        "label": 1
+    },
+    "female_87.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/87.wav",
+        "label": 1
+    },
+    "female_870.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/870.wav",
+        "label": 1
+    },
+    "female_879.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/879.wav",
+        "label": 1
+    },
+    "female_884.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/884.wav",
+        "label": 1
+    },
+    "female_893.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/893.wav",
+        "label": 1
+    },
+    "female_923.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/923.wav",
+        "label": 1
+    },
+    "female_933.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/933.wav",
+        "label": 1
+    },
+    "female_935.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/935.wav",
+        "label": 1
+    },
+    "female_938.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/938.wav",
+        "label": 1
+    },
+    "female_945.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/945.wav",
+        "label": 1
+    },
+    "female_958.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/958.wav",
+        "label": 1
+    },
+    "female_963.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/963.wav",
+        "label": 1
+    },
+    "female_971.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/971.wav",
+        "label": 1
+    },
+    "female_98.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/98.wav",
+        "label": 1
+    },
+    "female_983.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/983.wav",
+        "label": 1
+    },
+    "female_985.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/985.wav",
+        "label": 1
+    },
+    "female_987.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/987.wav",
+        "label": 1
+    },
+    "female_991.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/991.wav",
+        "label": 1
+    },
+    "female_994.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/994.wav",
+        "label": 1
+    },
+    "female_998.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/998.wav",
+        "label": 1
+    },
+    "female_999.wav": {
+        "sampledir": "./VoxCeleb_gender/females_wav/999.wav",
+        "label": 1
+    }
+}
