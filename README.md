@@ -1,4 +1,4 @@
-# Grundlagen Der Automatischen Spracherzeugung: 2024-ase-gruppe 777
+# Grundlagen Der Automatischen Spracherzeugung: 2024-ase-gruppe 2.7
 
 ## Content
 
